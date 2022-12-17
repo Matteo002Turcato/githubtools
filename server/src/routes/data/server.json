@@ -1,0 +1,44 @@
+[
+  {
+    "id": 6063,
+    "name": "shcl-ae195.serverlet.com",
+    "template": "DEBIAN8",
+    "configuration": "PLESK_LATEST",
+    "cpu_number": 1,
+    "cpu_core_number": 4,
+    "cpu_name": null,
+    "ram": 4096,
+    "ram_unit": "MB",
+    "disks": [{ "space": 60, "unit": "GB" }],
+    "backup_recurrences": ["W"],
+    "note": null
+  },
+  {
+    "id": 6578,
+    "name": "shcl-a0999.serverlet.com",
+    "template": "DEBIAN10",
+    "configuration": "PLESK_LATEST",
+    "cpu_number": 1,
+    "cpu_core_number": 4,
+    "cpu_name": null,
+    "ram": 4096,
+    "ram_unit": "MB",
+    "disks": [{ "space": 60, "unit": "GB" }],
+    "backup_recurrences": ["W"],
+    "note": null
+  },
+  {
+    "id": 8908,
+    "name": "shcl-7e036.serverlet.com",
+    "template": "DEBIAN10",
+    "configuration": "PLESK_LATEST",
+    "cpu_number": 1,
+    "cpu_core_number": 4,
+    "cpu_name": null,
+    "ram": 4096,
+    "ram_unit": "MB",
+    "disks": [{ "space": 60, "unit": "GB" }],
+    "backup_recurrences": ["W"],
+    "note": null
+  }
+]

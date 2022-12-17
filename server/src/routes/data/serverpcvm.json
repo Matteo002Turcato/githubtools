@@ -1,0 +1,58 @@
+[
+  {
+    "id": 8814,
+    "name": "shpcvm-2c813.serverlet.com",
+    "template": "DEBIAN10",
+    "configuration": "DOCKER_PORTAINER",
+    "cpu_number": 1,
+    "cpu_core_number": 1,
+    "cpu_name": null,
+    "ram": 1536,
+    "ram_unit": "MB",
+    "disks": [{ "space": 30, "unit": "GB" }],
+    "backup_recurrences": ["D", "W"],
+    "note": "Tuoteam"
+  },
+  {
+    "id": 7774,
+    "name": "shpcvm-7b4cc.serverlet.com",
+    "template": "DEBIAN10",
+    "configuration": "LAMP-MAGENTO",
+    "cpu_number": 1,
+    "cpu_core_number": 5,
+    "cpu_name": null,
+    "ram": 15800,
+    "ram_unit": "MB",
+    "disks": [{ "space": 200, "unit": "GB" }],
+    "backup_recurrences": ["D", "W"],
+    "note": "Magento Miti"
+  },
+  {
+    "id": 8417,
+    "name": "shpcvm-8614f.serverlet.com",
+    "template": "DEBIAN10",
+    "configuration": "LAMP-SERVER",
+    "cpu_number": 1,
+    "cpu_core_number": 1,
+    "cpu_name": null,
+    "ram": 4608,
+    "ram_unit": "MB",
+    "disks": [{ "space": 30, "unit": "GB" }],
+    "backup_recurrences": ["W"],
+    "note": "TuoTeam"
+  },
+  {
+    "id": 8285,
+    "name": "shpcvm-f8f44.serverlet.com",
+    "template": "DEBIAN10",
+    "configuration": "PLESK_LATEST",
+    "cpu_number": 1,
+    "cpu_core_number": 7,
+    "cpu_name": null,
+    "ram": 24800,
+    "ram_unit": "MB",
+    "disks": [{ "space": 100, "unit": "GB" }],
+    "backup_recurrences": ["D", "W"],
+    "note": "Plesk"
+  }
+]

@@ -1,0 +1,3440 @@
+[
+  {
+    "id": 12889,
+    "domain_name": "vicenzainfestival.it",
+    "domain_name_ascii": "vicenzainfestival.it",
+    "registry_expiry": "2022-12-16",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 275046, "type": "R" },
+      { "id": 275047, "type": "A" },
+      { "id": 275048, "type": "T" },
+      { "id": 275049, "type": "O" }
+    ]
+  },
+  {
+    "id": 24029,
+    "domain_name": "vicenzainfestival.com",
+    "domain_name_ascii": "vicenzainfestival.com",
+    "registry_expiry": "2022-12-16",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 62276, "type": "R" },
+      { "id": 62277, "type": "A" },
+      { "id": 62278, "type": "T" },
+      { "id": 62279, "type": "O" }
+    ]
+  },
+  {
+    "id": 19904,
+    "domain_name": "materiali-elettrici.com",
+    "domain_name_ascii": "materiali-elettrici.com",
+    "registry_expiry": "2022-11-18",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 62912, "type": "R" },
+      { "id": 62913, "type": "A" },
+      { "id": 62914, "type": "T" },
+      { "id": 62915, "type": "O" }
+    ]
+  },
+  {
+    "id": 12726,
+    "domain_name": "itel-installazioni.it",
+    "domain_name_ascii": "itel-installazioni.it",
+    "registry_expiry": "2022-11-18",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 317184, "type": "R" },
+      { "id": 317185, "type": "A" },
+      { "id": 317186, "type": "T" },
+      { "id": 317187, "type": "O" }
+    ]
+  },
+  {
+    "id": 17118,
+    "domain_name": "fas-international.com",
+    "domain_name_ascii": "fas-international.com",
+    "registry_expiry": "2022-10-05",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 69547, "type": "R" },
+      { "id": 69548, "type": "A" },
+      { "id": 69549, "type": "T" },
+      { "id": 69550, "type": "O" }
+    ]
+  },
+  {
+    "id": 257,
+    "domain_name": "fas.it",
+    "domain_name_ascii": "fas.it",
+    "registry_expiry": "2022-12-17",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 290709, "type": "R" },
+      { "id": 290710, "type": "A" },
+      { "id": 290711, "type": "T" },
+      { "id": 290712, "type": "O" }
+    ]
+  },
+  {
+    "id": 19836,
+    "domain_name": "marosticasummerfestival.com",
+    "domain_name_ascii": "marosticasummerfestival.com",
+    "registry_expiry": "2023-02-06",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 75291, "type": "R" },
+      { "id": 75292, "type": "A" },
+      { "id": 75293, "type": "T" },
+      { "id": 75294, "type": "O" }
+    ]
+  },
+  {
+    "id": 8791,
+    "domain_name": "marosticasummerfestival.it",
+    "domain_name_ascii": "marosticasummerfestival.it",
+    "registry_expiry": "2023-02-06",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 283110, "type": "R" },
+      { "id": 283111, "type": "A" },
+      { "id": 283112, "type": "T" },
+      { "id": 283113, "type": "O" }
+    ]
+  },
+  {
+    "id": 19738,
+    "domain_name": "manutecwalcor.com",
+    "domain_name_ascii": "manutecwalcor.com",
+    "registry_expiry": "2022-07-28",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 79835, "type": "R" },
+      { "id": 79836, "type": "A" },
+      { "id": 79837, "type": "T" },
+      { "id": 79838, "type": "O" }
+    ]
+  },
+  {
+    "id": 2934,
+    "domain_name": "allapergolaristorante.it",
+    "domain_name_ascii": "allapergolaristorante.it",
+    "registry_expiry": "2022-06-08",
+    "registry_status": "ok/autoRenewPeriod",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 272468, "type": "R" },
+      { "id": 272469, "type": "A" },
+      { "id": 272470, "type": "T" },
+      { "id": 272471, "type": "O" }
+    ]
+  },
+  {
+    "id": 16392,
+    "domain_name": "due-punti.com",
+    "domain_name_ascii": "due-punti.com",
+    "registry_expiry": "2023-02-22",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 79867, "type": "R" },
+      { "id": 79868, "type": "A" },
+      { "id": 79869, "type": "T" },
+      { "id": 79870, "type": "O" }
+    ]
+  },
+  {
+    "id": 1826,
+    "domain_name": "due-punti.it",
+    "domain_name_ascii": "due-punti.it",
+    "registry_expiry": "2022-05-30",
+    "registry_status": "ok/autoRenewPeriod",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 272496, "type": "R" },
+      { "id": 272497, "type": "A" },
+      { "id": 272498, "type": "T" },
+      { "id": 272499, "type": "O" }
+    ]
+  },
+  {
+    "id": 11134,
+    "domain_name": "mammottina.it",
+    "domain_name_ascii": "mammottina.it",
+    "registry_expiry": "2023-03-07",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 295688, "type": "R" },
+      { "id": 295689, "type": "A" },
+      { "id": 295690, "type": "T" },
+      { "id": 295691, "type": "O" }
+    ]
+  },
+  {
+    "id": 3175,
+    "domain_name": "centro-stand.it",
+    "domain_name_ascii": "centro-stand.it",
+    "registry_expiry": "2022-06-08",
+    "registry_status": "ok/autoRenewPeriod",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 272456, "type": "R" },
+      { "id": 272457, "type": "A" },
+      { "id": 272458, "type": "T" },
+      { "id": 272459, "type": "O" }
+    ]
+  },
+  {
+    "id": 17417,
+    "domain_name": "fratazzatricirev.com",
+    "domain_name_ascii": "fratazzatricirev.com",
+    "registry_expiry": "2022-06-21",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 80027, "type": "R" },
+      { "id": 80028, "type": "A" },
+      { "id": 80029, "type": "T" },
+      { "id": 80030, "type": "O" }
+    ]
+  },
+  {
+    "id": 19027,
+    "domain_name": "krissitalia.com",
+    "domain_name_ascii": "krissitalia.com",
+    "registry_expiry": "2023-02-28",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 84603, "type": "R" },
+      { "id": 84604, "type": "A" },
+      { "id": 84605, "type": "T" },
+      { "id": 84606, "type": "O" }
+    ]
+  },
+  {
+    "id": 4029,
+    "domain_name": "teleamedical.it",
+    "domain_name_ascii": "teleamedical.it",
+    "registry_expiry": "2023-03-19",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 296494, "type": "R" },
+      { "id": 296495, "type": "A" },
+      { "id": 296496, "type": "T" },
+      { "id": 296497, "type": "O" }
+    ]
+  },
+  {
+    "id": 23292,
+    "domain_name": "teleamedical.com",
+    "domain_name_ascii": "teleamedical.com",
+    "registry_expiry": "2023-03-14",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 91616, "type": "A" },
+      { "id": 91617, "type": "T" },
+      { "id": 91618, "type": "O" },
+      { "id": 442700, "type": "R" }
+    ]
+  },
+  {
+    "id": 27801,
+    "domain_name": "asiagolive.it",
+    "domain_name_ascii": "asiagolive.it",
+    "registry_expiry": "2023-05-03",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 94599, "type": "R" },
+      { "id": 94600, "type": "A" },
+      { "id": 94601, "type": "T" },
+      { "id": 94602, "type": "O" }
+    ]
+  },
+  {
+    "id": 28674,
+    "domain_name": "sottorivaimpianti.it",
+    "domain_name_ascii": "sottorivaimpianti.it",
+    "registry_expiry": "2022-07-06",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 97151, "type": "R" },
+      { "id": 97152, "type": "A" },
+      { "id": 97153, "type": "T" },
+      { "id": 97154, "type": "O" }
+    ]
+  },
+  {
+    "id": 29698,
+    "domain_name": "miroirstudio.it",
+    "domain_name_ascii": "miroirstudio.it",
+    "registry_expiry": "2022-10-17",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 99612, "type": "R" },
+      { "id": 99613, "type": "A" },
+      { "id": 99614, "type": "T" },
+      { "id": 99615, "type": "O" }
+    ]
+  },
+  {
+    "id": 29985,
+    "domain_name": "ilcapodannodiasiago.it",
+    "domain_name_ascii": "ilcapodannodiasiago.it",
+    "registry_expiry": "2022-11-09",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 316232, "type": "R" },
+      { "id": 316233, "type": "A" },
+      { "id": 316234, "type": "T" },
+      { "id": 316235, "type": "O" }
+    ]
+  },
+  {
+    "id": 29986,
+    "domain_name": "ilcapodannodiasiago.com",
+    "domain_name_ascii": "ilcapodannodiasiago.com",
+    "registry_expiry": "2022-11-09",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 316220, "type": "R" },
+      { "id": 316221, "type": "A" },
+      { "id": 316222, "type": "T" },
+      { "id": 316223, "type": "O" }
+    ]
+  },
+  {
+    "id": 29987,
+    "domain_name": "capodannoasiago.it",
+    "domain_name_ascii": "capodannoasiago.it",
+    "registry_expiry": "2022-11-09",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 316228, "type": "R" },
+      { "id": 316229, "type": "A" },
+      { "id": 316230, "type": "T" },
+      { "id": 316231, "type": "O" }
+    ]
+  },
+  {
+    "id": 29988,
+    "domain_name": "capodannoasiago.com",
+    "domain_name_ascii": "capodannoasiago.com",
+    "registry_expiry": "2022-11-09",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 316206, "type": "R" },
+      { "id": 316207, "type": "A" },
+      { "id": 316208, "type": "T" },
+      { "id": 316209, "type": "O" }
+    ]
+  },
+  {
+    "id": 30073,
+    "domain_name": "look88.it",
+    "domain_name_ascii": "look88.it",
+    "registry_expiry": "2022-11-17",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 316824, "type": "R" },
+      { "id": 316825, "type": "A" },
+      { "id": 316826, "type": "T" },
+      { "id": 316827, "type": "O" }
+    ]
+  },
+  {
+    "id": 30071,
+    "domain_name": "marcopettenuzzo.com",
+    "domain_name_ascii": "marcopettenuzzo.com",
+    "registry_expiry": "2022-11-25",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 321491, "type": "R" },
+      { "id": 321492, "type": "A" },
+      { "id": 321493, "type": "T" },
+      { "id": 321494, "type": "O" }
+    ]
+  },
+  {
+    "id": 31718,
+    "domain_name": "miroirstudioprova.eu",
+    "domain_name_ascii": "miroirstudioprova.eu",
+    "registry_expiry": "2023-03-26",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 301169, "type": "R" },
+      { "id": 301170, "type": "T" },
+      { "id": 348672, "type": "A" },
+      { "id": 348673, "type": "O" }
+    ]
+  },
+  {
+    "id": 32600,
+    "domain_name": "scsautomations.com",
+    "domain_name_ascii": "scsautomations.com",
+    "registry_expiry": "2023-06-12",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 326073, "type": "R" },
+      { "id": 326074, "type": "A" },
+      { "id": 326075, "type": "T" },
+      { "id": 326076, "type": "O" }
+    ]
+  },
+  {
+    "id": 32703,
+    "domain_name": "waipfalegnameria.com",
+    "domain_name_ascii": "waipfalegnameria.com",
+    "registry_expiry": "2023-04-06",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 293628, "type": "R" },
+      { "id": 293629, "type": "A" },
+      { "id": 293630, "type": "T" },
+      { "id": 293631, "type": "O" }
+    ]
+  },
+  {
+    "id": 32916,
+    "domain_name": "noicittadinischio.it",
+    "domain_name_ascii": "noicittadinischio.it",
+    "registry_expiry": "2022-07-10",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 297868, "type": "R" },
+      { "id": 297869, "type": "A" },
+      { "id": 297870, "type": "T" },
+      { "id": 297871, "type": "O" }
+    ]
+  },
+  {
+    "id": 33127,
+    "domain_name": "miroirstudiogestione.it",
+    "domain_name_ascii": "miroirstudiogestione.it",
+    "registry_expiry": "2022-07-26",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 311115, "type": "R" },
+      { "id": 311116, "type": "A" },
+      { "id": 311117, "type": "T" },
+      { "id": 311118, "type": "O" }
+    ]
+  },
+  {
+    "id": 33263,
+    "domain_name": "fotoceramicabidese.com",
+    "domain_name_ascii": "fotoceramicabidese.com",
+    "registry_expiry": "2023-02-18",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 299317, "type": "R" },
+      { "id": 299318, "type": "A" },
+      { "id": 299319, "type": "T" },
+      { "id": 299320, "type": "O" }
+    ]
+  },
+  {
+    "id": 33369,
+    "domain_name": "setpointstudio.com",
+    "domain_name_ascii": "setpointstudio.com",
+    "registry_expiry": "2022-08-30",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 272840, "type": "R" },
+      { "id": 272841, "type": "A" },
+      { "id": 272842, "type": "T" },
+      { "id": 272843, "type": "O" }
+    ]
+  },
+  {
+    "id": 33451,
+    "domain_name": "fisikasport.it",
+    "domain_name_ascii": "fisikasport.it",
+    "registry_expiry": "2022-09-06",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 310405, "type": "R" },
+      { "id": 310406, "type": "A" },
+      { "id": 310407, "type": "T" },
+      { "id": 310408, "type": "O" }
+    ]
+  },
+  {
+    "id": 33562,
+    "domain_name": "ilmarmodesign.it",
+    "domain_name_ascii": "ilmarmodesign.it",
+    "registry_expiry": "2022-09-19",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 300113, "type": "R" },
+      { "id": 300114, "type": "A" },
+      { "id": 300115, "type": "T" },
+      { "id": 300116, "type": "O" }
+    ]
+  },
+  {
+    "id": 33590,
+    "domain_name": "bioton.it",
+    "domain_name_ascii": "bioton.it",
+    "registry_expiry": "2022-09-20",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 320574, "type": "R" },
+      { "id": 320575, "type": "A" },
+      { "id": 320576, "type": "T" },
+      { "id": 320577, "type": "O" }
+    ]
+  },
+  {
+    "id": 33594,
+    "domain_name": "artecbp.com",
+    "domain_name_ascii": "artecbp.com",
+    "registry_expiry": "2022-12-30",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 271175, "type": "R" },
+      { "id": 271176, "type": "A" },
+      { "id": 271177, "type": "T" },
+      { "id": 271178, "type": "O" }
+    ]
+  },
+  {
+    "id": 34056,
+    "domain_name": "rivetticafe.it",
+    "domain_name_ascii": "rivetticafe.it",
+    "registry_expiry": "2022-10-30",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 300979, "type": "R" },
+      { "id": 300980, "type": "A" },
+      { "id": 300981, "type": "T" },
+      { "id": 300982, "type": "O" }
+    ]
+  },
+  {
+    "id": 34131,
+    "domain_name": "andreaverona99.com",
+    "domain_name_ascii": "andreaverona99.com",
+    "registry_expiry": "2022-11-05",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "kallie.ns.cloudflare.com", "ip": "162.159.38.85" },
+      { "hostname": "kirk.ns.cloudflare.com", "ip": "108.162.193.192" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "CLOUDFLARE",
+    "domain_contacts": [
+      { "id": 315462, "type": "R" },
+      { "id": 315463, "type": "A" },
+      { "id": 315464, "type": "T" },
+      { "id": 315465, "type": "O" }
+    ]
+  },
+  {
+    "id": 34155,
+    "domain_name": "tavolanordica.it",
+    "domain_name_ascii": "tavolanordica.it",
+    "registry_expiry": "2022-11-06",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 315878, "type": "R" },
+      { "id": 315879, "type": "A" },
+      { "id": 315880, "type": "T" },
+      { "id": 315881, "type": "O" }
+    ]
+  },
+  {
+    "id": 34392,
+    "domain_name": "neway.digital",
+    "domain_name_ascii": "neway.digital",
+    "registry_expiry": "2022-11-24",
+    "registry_status": "Registered",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 324729, "type": "R" },
+      { "id": 324730, "type": "A" },
+      { "id": 324731, "type": "T" },
+      { "id": 324732, "type": "O" }
+    ]
+  },
+  {
+    "id": 34032,
+    "domain_name": "tritech.it",
+    "domain_name_ascii": "tritech.it",
+    "registry_expiry": "2022-12-13",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 308212, "type": "R" },
+      { "id": 308213, "type": "A" },
+      { "id": 308214, "type": "T" },
+      { "id": 308215, "type": "O" }
+    ]
+  },
+  {
+    "id": 35211,
+    "domain_name": "giocandolo.it",
+    "domain_name_ascii": "giocandolo.it",
+    "registry_expiry": "2023-01-23",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 304254, "type": "R" },
+      { "id": 304255, "type": "A" },
+      { "id": 304256, "type": "T" },
+      { "id": 304257, "type": "O" }
+    ]
+  },
+  {
+    "id": 35212,
+    "domain_name": "festandolo.it",
+    "domain_name_ascii": "festandolo.it",
+    "registry_expiry": "2023-01-23",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 304276, "type": "R" },
+      { "id": 304277, "type": "A" },
+      { "id": 304278, "type": "T" },
+      { "id": 304279, "type": "O" }
+    ]
+  },
+  {
+    "id": 35213,
+    "domain_name": "giocandolo.com",
+    "domain_name_ascii": "giocandolo.com",
+    "registry_expiry": "2023-06-10",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 304266, "type": "R" },
+      { "id": 304267, "type": "A" },
+      { "id": 304268, "type": "T" },
+      { "id": 304269, "type": "O" }
+    ]
+  },
+  {
+    "id": 35305,
+    "domain_name": "miroirstudio.com",
+    "domain_name_ascii": "miroirstudio.com",
+    "registry_expiry": "2023-01-29",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "kallie.ns.cloudflare.com", "ip": "108.162.194.85" },
+      { "hostname": "kirk.ns.cloudflare.com", "ip": "172.64.33.192" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "CLOUDFLARE",
+    "domain_contacts": [
+      { "id": 279153, "type": "R" },
+      { "id": 279154, "type": "A" },
+      { "id": 279155, "type": "T" },
+      { "id": 279156, "type": "O" }
+    ]
+  },
+  {
+    "id": 35438,
+    "domain_name": "due-punti.eu",
+    "domain_name_ascii": "due-punti.eu",
+    "registry_expiry": "2023-02-08",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 311037, "type": "R" },
+      { "id": 311038, "type": "T" },
+      { "id": 348926, "type": "A" },
+      { "id": 348927, "type": "O" }
+    ]
+  },
+  {
+    "id": 35439,
+    "domain_name": "due-punti.info",
+    "domain_name_ascii": "due-punti.info",
+    "registry_expiry": "2023-02-08",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 311475, "type": "R" },
+      { "id": 311476, "type": "A" },
+      { "id": 311477, "type": "T" },
+      { "id": 311478, "type": "O" }
+    ]
+  },
+  {
+    "id": 35846,
+    "domain_name": "bassanolivemusic.it",
+    "domain_name_ascii": "bassanolivemusic.it",
+    "registry_expiry": "2023-03-07",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 315366, "type": "R" },
+      { "id": 315367, "type": "A" },
+      { "id": 315368, "type": "T" },
+      { "id": 315369, "type": "O" }
+    ]
+  },
+  {
+    "id": 35847,
+    "domain_name": "bassanolivemusic.com",
+    "domain_name_ascii": "bassanolivemusic.com",
+    "registry_expiry": "2023-03-08",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 322363, "type": "R" },
+      { "id": 322364, "type": "A" },
+      { "id": 322365, "type": "T" },
+      { "id": 322366, "type": "O" }
+    ]
+  },
+  {
+    "id": 36405,
+    "domain_name": "iocredoinnoventa.it",
+    "domain_name_ascii": "iocredoinnoventa.it",
+    "registry_expiry": "2023-04-05",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 277409, "type": "R" },
+      { "id": 277410, "type": "A" },
+      { "id": 277411, "type": "T" },
+      { "id": 277412, "type": "O" }
+    ]
+  },
+  {
+    "id": 36492,
+    "domain_name": "andreaturcato.it",
+    "domain_name_ascii": "andreaturcato.it",
+    "registry_expiry": "2023-04-11",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 293024, "type": "R" },
+      { "id": 293025, "type": "A" },
+      { "id": 293026, "type": "T" },
+      { "id": 293027, "type": "O" }
+    ]
+  },
+  {
+    "id": 37037,
+    "domain_name": "internazionalidischio.it",
+    "domain_name_ascii": "internazionalidischio.it",
+    "registry_expiry": "2023-05-23",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 328277, "type": "R" },
+      { "id": 328278, "type": "A" },
+      { "id": 328279, "type": "T" },
+      { "id": 328280, "type": "O" }
+    ]
+  },
+  {
+    "id": 37370,
+    "domain_name": "waip.it",
+    "domain_name_ascii": "waip.it",
+    "registry_expiry": "2022-06-25",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 329698, "type": "R" },
+      { "id": 329699, "type": "A" },
+      { "id": 329700, "type": "T" },
+      { "id": 329701, "type": "O" }
+    ]
+  },
+  {
+    "id": 37790,
+    "domain_name": "mrmotorsportmanagement.mc",
+    "domain_name_ascii": "mrmotorsportmanagement.mc",
+    "registry_expiry": "2022-06-20",
+    "registry_status": "Registered",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 331281, "type": "R" },
+      { "id": 331282, "type": "A" },
+      { "id": 331283, "type": "T" },
+      { "id": 331284, "type": "O" }
+    ]
+  },
+  {
+    "id": 37812,
+    "domain_name": "ideataly.it",
+    "domain_name_ascii": "ideataly.it",
+    "registry_expiry": "2022-07-20",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 331022, "type": "R" },
+      { "id": 331023, "type": "A" },
+      { "id": 331024, "type": "T" },
+      { "id": 331025, "type": "O" }
+    ]
+  },
+  {
+    "id": 37815,
+    "domain_name": "ideataly.biz",
+    "domain_name_ascii": "ideataly.biz",
+    "registry_expiry": "2022-12-09",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 331207, "type": "R" },
+      { "id": 331208, "type": "A" },
+      { "id": 331209, "type": "T" },
+      { "id": 331210, "type": "O" }
+    ]
+  },
+  {
+    "id": 37816,
+    "domain_name": "ideataly.com",
+    "domain_name_ascii": "ideataly.com",
+    "registry_expiry": "2022-11-27",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 330970, "type": "R" },
+      { "id": 330971, "type": "A" },
+      { "id": 330972, "type": "T" },
+      { "id": 330973, "type": "O" }
+    ]
+  },
+  {
+    "id": 37817,
+    "domain_name": "ideataly.eu",
+    "domain_name_ascii": "ideataly.eu",
+    "registry_expiry": "2022-12-10",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 331205, "type": "R" },
+      { "id": 331206, "type": "T" },
+      { "id": 349134, "type": "A" },
+      { "id": 349135, "type": "O" }
+    ]
+  },
+  {
+    "id": 37818,
+    "domain_name": "ideataly.info",
+    "domain_name_ascii": "ideataly.info",
+    "registry_expiry": "2022-12-10",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 330974, "type": "R" },
+      { "id": 330975, "type": "A" },
+      { "id": 330976, "type": "T" },
+      { "id": 330977, "type": "O" }
+    ]
+  },
+  {
+    "id": 37819,
+    "domain_name": "ideataly.net",
+    "domain_name_ascii": "ideataly.net",
+    "registry_expiry": "2022-12-10",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 330982, "type": "R" },
+      { "id": 330983, "type": "A" },
+      { "id": 330984, "type": "T" },
+      { "id": 330985, "type": "O" }
+    ]
+  },
+  {
+    "id": 37820,
+    "domain_name": "ideataly.org",
+    "domain_name_ascii": "ideataly.org",
+    "registry_expiry": "2022-12-10",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 330978, "type": "R" },
+      { "id": 330979, "type": "A" },
+      { "id": 330980, "type": "T" },
+      { "id": 330981, "type": "O" }
+    ]
+  },
+  {
+    "id": 38577,
+    "domain_name": "generalileogra.it",
+    "domain_name_ascii": "generalileogra.it",
+    "registry_expiry": "2022-10-02",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": true,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 337248, "type": "R" },
+      { "id": 337249, "type": "A" },
+      { "id": 337250, "type": "T" },
+      { "id": 337251, "type": "O" }
+    ]
+  },
+  {
+    "id": 78013,
+    "domain_name": "duepuntieventi.it",
+    "domain_name_ascii": "duepuntieventi.it",
+    "registry_expiry": "2022-10-22",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 338267, "type": "R" },
+      { "id": 338268, "type": "A" },
+      { "id": 338269, "type": "T" },
+      { "id": 338270, "type": "O" }
+    ]
+  },
+  {
+    "id": 78014,
+    "domain_name": "duepuntieventi.com",
+    "domain_name_ascii": "duepuntieventi.com",
+    "registry_expiry": "2022-10-22",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 338259, "type": "R" },
+      { "id": 338260, "type": "A" },
+      { "id": 338261, "type": "T" },
+      { "id": 338262, "type": "O" }
+    ]
+  },
+  {
+    "id": 78070,
+    "domain_name": "duepunticomunicazione.it",
+    "domain_name_ascii": "duepunticomunicazione.it",
+    "registry_expiry": "2022-10-22",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 338263, "type": "R" },
+      { "id": 338264, "type": "A" },
+      { "id": 338265, "type": "T" },
+      { "id": 338266, "type": "O" }
+    ]
+  },
+  {
+    "id": 78615,
+    "domain_name": "lapiazzatv.it",
+    "domain_name_ascii": "lapiazzatv.it",
+    "registry_expiry": "2022-11-29",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 340373, "type": "R" },
+      { "id": 340374, "type": "A" },
+      { "id": 340375, "type": "T" },
+      { "id": 340376, "type": "O" }
+    ]
+  },
+  {
+    "id": 78616,
+    "domain_name": "lapiazzawebtv.it",
+    "domain_name_ascii": "lapiazzawebtv.it",
+    "registry_expiry": "2022-11-29",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 340369, "type": "R" },
+      { "id": 340370, "type": "A" },
+      { "id": 340371, "type": "T" },
+      { "id": 340372, "type": "O" }
+    ]
+  },
+  {
+    "id": 78618,
+    "domain_name": "atuttasalute.it",
+    "domain_name_ascii": "atuttasalute.it",
+    "registry_expiry": "2022-11-29",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 340385, "type": "R" },
+      { "id": 340386, "type": "A" },
+      { "id": 340387, "type": "T" },
+      { "id": 340388, "type": "O" }
+    ]
+  },
+  {
+    "id": 78664,
+    "domain_name": "lapiazzaweb.com",
+    "domain_name_ascii": "lapiazzaweb.com",
+    "registry_expiry": "2022-10-24",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 342373, "type": "R" },
+      { "id": 342374, "type": "A" },
+      { "id": 342375, "type": "T" },
+      { "id": 342376, "type": "O" }
+    ]
+  },
+  {
+    "id": 78665,
+    "domain_name": "lapiazzaquindicinale.it",
+    "domain_name_ascii": "lapiazzaquindicinale.it",
+    "registry_expiry": "2022-12-03",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 340557, "type": "R" },
+      { "id": 340558, "type": "A" },
+      { "id": 340559, "type": "T" },
+      { "id": 340560, "type": "O" }
+    ]
+  },
+  {
+    "id": 78677,
+    "domain_name": "venetaarredamenti.com",
+    "domain_name_ascii": "venetaarredamenti.com",
+    "registry_expiry": "2022-07-06",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 341627, "type": "R" },
+      { "id": 341628, "type": "A" },
+      { "id": 341629, "type": "T" },
+      { "id": 341630, "type": "O" }
+    ]
+  },
+  {
+    "id": 78679,
+    "domain_name": "giacomettiinteriors.com",
+    "domain_name_ascii": "giacomettiinteriors.com",
+    "registry_expiry": "2022-10-24",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 341743, "type": "A" },
+      { "id": 341744, "type": "T" },
+      { "id": 341745, "type": "O" },
+      { "id": 438066, "type": "R" }
+    ]
+  },
+  {
+    "id": 78690,
+    "domain_name": "giacomettiinteriors.it",
+    "domain_name_ascii": "giacomettiinteriors.it",
+    "registry_expiry": "2022-12-04",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 340648, "type": "A" },
+      { "id": 340649, "type": "T" },
+      { "id": 340650, "type": "O" },
+      { "id": 438069, "type": "R" }
+    ]
+  },
+  {
+    "id": 79112,
+    "domain_name": "officinehellen.it",
+    "domain_name_ascii": "officinehellen.it",
+    "registry_expiry": "2023-01-10",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 342138, "type": "R" },
+      { "id": 342139, "type": "A" },
+      { "id": 342140, "type": "T" },
+      { "id": 342141, "type": "O" }
+    ]
+  },
+  {
+    "id": 79573,
+    "domain_name": "designitaliainc.com",
+    "domain_name_ascii": "designitaliainc.com",
+    "registry_expiry": "2022-10-09",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 344179, "type": "R" },
+      { "id": 344180, "type": "A" },
+      { "id": 344181, "type": "T" },
+      { "id": 344182, "type": "O" }
+    ]
+  },
+  {
+    "id": 80020,
+    "domain_name": "ambrosiabio.it",
+    "domain_name_ascii": "ambrosiabio.it",
+    "registry_expiry": "2023-03-05",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 345504, "type": "R" },
+      { "id": 345505, "type": "A" },
+      { "id": 345506, "type": "T" },
+      { "id": 345507, "type": "O" }
+    ]
+  },
+  {
+    "id": 80433,
+    "domain_name": "simply-pizza.it",
+    "domain_name_ascii": "simply-pizza.it",
+    "registry_expiry": "2023-04-01",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 347176, "type": "R" },
+      { "id": 347177, "type": "A" },
+      { "id": 347178, "type": "T" },
+      { "id": 347179, "type": "O" }
+    ]
+  },
+  {
+    "id": 80733,
+    "domain_name": "santantonioweb.it",
+    "domain_name_ascii": "santantonioweb.it",
+    "registry_expiry": "2023-04-22",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 350516, "type": "R" },
+      { "id": 350517, "type": "A" },
+      { "id": 350518, "type": "T" },
+      { "id": 350519, "type": "O" }
+    ]
+  },
+  {
+    "id": 81029,
+    "domain_name": "dariosavio.com",
+    "domain_name_ascii": "dariosavio.com",
+    "registry_expiry": "2023-05-06",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 401527, "type": "R" },
+      { "id": 401528, "type": "A" },
+      { "id": 401529, "type": "T" },
+      { "id": 401530, "type": "O" }
+    ]
+  },
+  {
+    "id": 81412,
+    "domain_name": "passamilsale.com",
+    "domain_name_ascii": "passamilsale.com",
+    "registry_expiry": "2023-05-28",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 404308, "type": "R" },
+      { "id": 404309, "type": "A" },
+      { "id": 404310, "type": "T" },
+      { "id": 404311, "type": "O" }
+    ]
+  },
+  {
+    "id": 81540,
+    "domain_name": "acquaferrofuoco.it",
+    "domain_name_ascii": "acquaferrofuoco.it",
+    "registry_expiry": "2022-05-29",
+    "registry_status": "ok/autoRenewPeriod",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 404387, "type": "R" },
+      { "id": 404388, "type": "A" },
+      { "id": 404389, "type": "T" },
+      { "id": 404390, "type": "O" }
+    ]
+  },
+  {
+    "id": 9782,
+    "domain_name": "morbilloshop.it",
+    "domain_name_ascii": "morbilloshop.it",
+    "registry_expiry": "2022-06-16",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 406556, "type": "R" },
+      { "id": 406557, "type": "A" },
+      { "id": 406558, "type": "T" },
+      { "id": 406559, "type": "O" }
+    ]
+  },
+  {
+    "id": 20280,
+    "domain_name": "morbilloshop.com",
+    "domain_name_ascii": "morbilloshop.com",
+    "registry_expiry": "2022-07-15",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 406359, "type": "R" },
+      { "id": 406360, "type": "A" },
+      { "id": 406361, "type": "T" },
+      { "id": 406362, "type": "O" }
+    ]
+  },
+  {
+    "id": 81949,
+    "domain_name": "ministreetabbigliamento.it",
+    "domain_name_ascii": "ministreetabbigliamento.it",
+    "registry_expiry": "2022-06-25",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 407631, "type": "R" },
+      { "id": 407632, "type": "A" },
+      { "id": 407633, "type": "T" },
+      { "id": 407634, "type": "O" }
+    ]
+  },
+  {
+    "id": 81997,
+    "domain_name": "nanniniimpianti.it",
+    "domain_name_ascii": "nanniniimpianti.it",
+    "registry_expiry": "2022-07-06",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 408853, "type": "R" },
+      { "id": 408854, "type": "A" },
+      { "id": 408855, "type": "T" },
+      { "id": 408856, "type": "O" }
+    ]
+  },
+  {
+    "id": 82334,
+    "domain_name": "parastinchipersonalizzati.com",
+    "domain_name_ascii": "parastinchipersonalizzati.com",
+    "registry_expiry": "2022-07-30",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 411133, "type": "R" },
+      { "id": 411134, "type": "A" },
+      { "id": 411135, "type": "T" },
+      { "id": 411136, "type": "O" }
+    ]
+  },
+  {
+    "id": 82352,
+    "domain_name": "tacklesport.it",
+    "domain_name_ascii": "tacklesport.it",
+    "registry_expiry": "2022-07-24",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 411165, "type": "R" },
+      { "id": 411166, "type": "A" },
+      { "id": 411167, "type": "T" },
+      { "id": 411168, "type": "O" }
+    ]
+  },
+  {
+    "id": 82835,
+    "domain_name": "lastazionexperience.it",
+    "domain_name_ascii": "lastazionexperience.it",
+    "registry_expiry": "2022-09-10",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 415095, "type": "R" },
+      { "id": 415096, "type": "A" },
+      { "id": 415097, "type": "T" },
+      { "id": 415098, "type": "O" }
+    ]
+  },
+  {
+    "id": 82836,
+    "domain_name": "lastazionexperience.com",
+    "domain_name_ascii": "lastazionexperience.com",
+    "registry_expiry": "2022-09-08",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 414931, "type": "R" },
+      { "id": 414932, "type": "A" },
+      { "id": 414933, "type": "T" },
+      { "id": 414934, "type": "O" }
+    ]
+  },
+  {
+    "id": 83174,
+    "domain_name": "matteofioriomaglieria.it",
+    "domain_name_ascii": "matteofioriomaglieria.it",
+    "registry_expiry": "2022-09-30",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 417040, "type": "R" },
+      { "id": 417041, "type": "A" },
+      { "id": 417042, "type": "T" },
+      { "id": 417043, "type": "O" }
+    ]
+  },
+  {
+    "id": 82649,
+    "domain_name": "luxin.it",
+    "domain_name_ascii": "luxin.it",
+    "registry_expiry": "2022-10-10",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 418147, "type": "R" },
+      { "id": 418148, "type": "A" },
+      { "id": 418149, "type": "T" },
+      { "id": 418150, "type": "O" }
+    ]
+  },
+  {
+    "id": 83350,
+    "domain_name": "luxinitalia.it",
+    "domain_name_ascii": "luxinitalia.it",
+    "registry_expiry": "2022-10-09",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 418016, "type": "R" },
+      { "id": 418017, "type": "A" },
+      { "id": 418018, "type": "T" },
+      { "id": 418019, "type": "O" }
+    ]
+  },
+  {
+    "id": 83351,
+    "domain_name": "luxinitalia.com",
+    "domain_name_ascii": "luxinitalia.com",
+    "registry_expiry": "2022-06-21",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 417906, "type": "R" },
+      { "id": 417907, "type": "A" },
+      { "id": 417908, "type": "T" },
+      { "id": 417909, "type": "O" }
+    ]
+  },
+  {
+    "id": 83388,
+    "domain_name": "snap-snack.com",
+    "domain_name_ascii": "snap-snack.com",
+    "registry_expiry": "2022-10-09",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 418180, "type": "R" },
+      { "id": 418181, "type": "A" },
+      { "id": 418182, "type": "T" },
+      { "id": 418183, "type": "O" }
+    ]
+  },
+  {
+    "id": 84178,
+    "domain_name": "besafewear.com",
+    "domain_name_ascii": "besafewear.com",
+    "registry_expiry": "2022-11-23",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 423261, "type": "A" },
+      { "id": 423262, "type": "T" },
+      { "id": 423263, "type": "O" },
+      { "id": 423399, "type": "R" }
+    ]
+  },
+  {
+    "id": 84561,
+    "domain_name": "tt4you.it",
+    "domain_name_ascii": "tt4you.it",
+    "registry_expiry": "2022-12-16",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 427548, "type": "R" },
+      { "id": 427549, "type": "A" },
+      { "id": 427550, "type": "T" },
+      { "id": 427551, "type": "O" }
+    ]
+  },
+  {
+    "id": 84601,
+    "domain_name": "colbensrl.com",
+    "domain_name_ascii": "colbensrl.com",
+    "registry_expiry": "2022-11-23",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 427965, "type": "R" },
+      { "id": 427966, "type": "A" },
+      { "id": 427967, "type": "T" },
+      { "id": 427968, "type": "O" }
+    ]
+  },
+  {
+    "id": 84801,
+    "domain_name": "cappellottosnc.it",
+    "domain_name_ascii": "cappellottosnc.it",
+    "registry_expiry": "2023-01-08",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 430222, "type": "R" },
+      { "id": 430223, "type": "A" },
+      { "id": 430224, "type": "T" },
+      { "id": 430225, "type": "O" }
+    ]
+  },
+  {
+    "id": 85097,
+    "domain_name": "frutform.com",
+    "domain_name_ascii": "frutform.com",
+    "registry_expiry": "2023-01-20",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 432762, "type": "R" },
+      { "id": 432763, "type": "A" },
+      { "id": 432764, "type": "T" },
+      { "id": 432765, "type": "O" }
+    ]
+  },
+  {
+    "id": 85142,
+    "domain_name": "speckdiasiago.it",
+    "domain_name_ascii": "speckdiasiago.it",
+    "registry_expiry": "2023-01-22",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 433096, "type": "R" },
+      { "id": 433097, "type": "A" },
+      { "id": 433098, "type": "T" },
+      { "id": 433099, "type": "O" }
+    ]
+  },
+  {
+    "id": 85189,
+    "domain_name": "snap-snack.it",
+    "domain_name_ascii": "snap-snack.it",
+    "registry_expiry": "2023-01-28",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 433913, "type": "R" },
+      { "id": 433914, "type": "A" },
+      { "id": 433915, "type": "T" },
+      { "id": 433916, "type": "O" }
+    ]
+  },
+  {
+    "id": 85661,
+    "domain_name": "lab5srl.com",
+    "domain_name_ascii": "lab5srl.com",
+    "registry_expiry": "2023-02-19",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 436537, "type": "R" },
+      { "id": 436538, "type": "A" },
+      { "id": 436539, "type": "T" },
+      { "id": 436540, "type": "O" }
+    ]
+  },
+  {
+    "id": 85912,
+    "domain_name": "nativecollective.it",
+    "domain_name_ascii": "nativecollective.it",
+    "registry_expiry": "2023-03-03",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 438070, "type": "R" },
+      { "id": 438071, "type": "A" },
+      { "id": 438072, "type": "T" },
+      { "id": 438073, "type": "O" }
+    ]
+  },
+  {
+    "id": 85941,
+    "domain_name": "marmipesaventoasiago.it",
+    "domain_name_ascii": "marmipesaventoasiago.it",
+    "registry_expiry": "2023-03-04",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 438158, "type": "R" },
+      { "id": 438159, "type": "A" },
+      { "id": 438160, "type": "T" },
+      { "id": 438161, "type": "O" }
+    ]
+  },
+  {
+    "id": 85999,
+    "domain_name": "palintech.it",
+    "domain_name_ascii": "palintech.it",
+    "registry_expiry": "2023-03-10",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 438938, "type": "R" },
+      { "id": 438939, "type": "A" },
+      { "id": 438940, "type": "T" },
+      { "id": 438941, "type": "O" }
+    ]
+  },
+  {
+    "id": 86000,
+    "domain_name": "palintech.org",
+    "domain_name_ascii": "palintech.org",
+    "registry_expiry": "2023-03-10",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 439018, "type": "R" },
+      { "id": 439019, "type": "A" },
+      { "id": 439020, "type": "T" },
+      { "id": 439021, "type": "O" }
+    ]
+  },
+  {
+    "id": 86001,
+    "domain_name": "palintech.net",
+    "domain_name_ascii": "palintech.net",
+    "registry_expiry": "2023-03-10",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 439022, "type": "R" },
+      { "id": 439023, "type": "A" },
+      { "id": 439024, "type": "T" },
+      { "id": 439025, "type": "O" }
+    ]
+  },
+  {
+    "id": 86035,
+    "domain_name": "tdotechnology.com",
+    "domain_name_ascii": "tdotechnology.com",
+    "registry_expiry": "2023-04-11",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 438770, "type": "R" },
+      { "id": 438771, "type": "A" },
+      { "id": 438772, "type": "T" },
+      { "id": 438773, "type": "O" }
+    ]
+  },
+  {
+    "id": 86036,
+    "domain_name": "rivagranda.com",
+    "domain_name_ascii": "rivagranda.com",
+    "registry_expiry": "2023-05-24",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 438794, "type": "R" },
+      { "id": 438795, "type": "A" },
+      { "id": 438796, "type": "T" },
+      { "id": 438797, "type": "O" }
+    ]
+  },
+  {
+    "id": 86426,
+    "domain_name": "f7device.com",
+    "domain_name_ascii": "f7device.com",
+    "registry_expiry": "2023-04-02",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 441454, "type": "R" },
+      { "id": 441455, "type": "A" },
+      { "id": 441456, "type": "T" },
+      { "id": 441457, "type": "O" }
+    ]
+  },
+  {
+    "id": 86482,
+    "domain_name": "nonpiumoka.it",
+    "domain_name_ascii": "nonpiumoka.it",
+    "registry_expiry": "2023-03-30",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 441735, "type": "R" },
+      { "id": 441736, "type": "A" },
+      { "id": 441737, "type": "T" },
+      { "id": 441738, "type": "O" }
+    ]
+  },
+  {
+    "id": 86625,
+    "domain_name": "qmrtechnology.it",
+    "domain_name_ascii": "qmrtechnology.it",
+    "registry_expiry": "2023-04-08",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 442781, "type": "R" },
+      { "id": 442782, "type": "A" },
+      { "id": 442783, "type": "T" },
+      { "id": 442784, "type": "O" }
+    ]
+  },
+  {
+    "id": 86626,
+    "domain_name": "tecnologiaqmr.it",
+    "domain_name_ascii": "tecnologiaqmr.it",
+    "registry_expiry": "2023-04-08",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 442801, "type": "R" },
+      { "id": 442802, "type": "A" },
+      { "id": 442803, "type": "T" },
+      { "id": 442804, "type": "O" }
+    ]
+  },
+  {
+    "id": 86627,
+    "domain_name": "qmrtherapy.it",
+    "domain_name_ascii": "qmrtherapy.it",
+    "registry_expiry": "2023-04-08",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 442797, "type": "R" },
+      { "id": 442798, "type": "A" },
+      { "id": 442799, "type": "T" },
+      { "id": 442800, "type": "O" }
+    ]
+  },
+  {
+    "id": 86628,
+    "domain_name": "terapiaqmr.it",
+    "domain_name_ascii": "terapiaqmr.it",
+    "registry_expiry": "2023-04-08",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 442777, "type": "R" },
+      { "id": 442778, "type": "A" },
+      { "id": 442779, "type": "T" },
+      { "id": 442780, "type": "O" }
+    ]
+  },
+  {
+    "id": 86629,
+    "domain_name": "teleaelectronicengineering.it",
+    "domain_name_ascii": "teleaelectronicengineering.it",
+    "registry_expiry": "2023-04-08",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 442773, "type": "R" },
+      { "id": 442774, "type": "A" },
+      { "id": 442775, "type": "T" },
+      { "id": 442776, "type": "O" }
+    ]
+  },
+  {
+    "id": 86630,
+    "domain_name": "teleabiotech.it",
+    "domain_name_ascii": "teleabiotech.it",
+    "registry_expiry": "2023-04-08",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 442688, "type": "R" },
+      { "id": 442689, "type": "A" },
+      { "id": 442690, "type": "T" },
+      { "id": 442691, "type": "O" }
+    ]
+  },
+  {
+    "id": 86631,
+    "domain_name": "teleamedicalgroup.it",
+    "domain_name_ascii": "teleamedicalgroup.it",
+    "registry_expiry": "2023-04-08",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 442769, "type": "R" },
+      { "id": 442770, "type": "A" },
+      { "id": 442771, "type": "T" },
+      { "id": 442772, "type": "O" }
+    ]
+  },
+  {
+    "id": 86632,
+    "domain_name": "qmrtechnology.com",
+    "domain_name_ascii": "qmrtechnology.com",
+    "registry_expiry": "2023-04-08",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 442805, "type": "R" },
+      { "id": 442806, "type": "A" },
+      { "id": 442807, "type": "T" },
+      { "id": 442808, "type": "O" }
+    ]
+  },
+  {
+    "id": 86633,
+    "domain_name": "tecnologiaqmr.com",
+    "domain_name_ascii": "tecnologiaqmr.com",
+    "registry_expiry": "2023-04-08",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 442841, "type": "R" },
+      { "id": 442842, "type": "A" },
+      { "id": 442843, "type": "T" },
+      { "id": 442844, "type": "O" }
+    ]
+  },
+  {
+    "id": 86634,
+    "domain_name": "qmrtherapy.com",
+    "domain_name_ascii": "qmrtherapy.com",
+    "registry_expiry": "2023-04-08",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 442853, "type": "R" },
+      { "id": 442854, "type": "A" },
+      { "id": 442855, "type": "T" },
+      { "id": 442856, "type": "O" }
+    ]
+  },
+  {
+    "id": 86635,
+    "domain_name": "terapiaqmr.com",
+    "domain_name_ascii": "terapiaqmr.com",
+    "registry_expiry": "2023-04-08",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 442845, "type": "R" },
+      { "id": 442846, "type": "A" },
+      { "id": 442847, "type": "T" },
+      { "id": 442848, "type": "O" }
+    ]
+  },
+  {
+    "id": 86636,
+    "domain_name": "teleaelectronicengineering.com",
+    "domain_name_ascii": "teleaelectronicengineering.com",
+    "registry_expiry": "2023-04-08",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 442873, "type": "R" },
+      { "id": 442874, "type": "A" },
+      { "id": 442875, "type": "T" },
+      { "id": 442876, "type": "O" }
+    ]
+  },
+  {
+    "id": 86637,
+    "domain_name": "teleamedicalgroup.com",
+    "domain_name_ascii": "teleamedicalgroup.com",
+    "registry_expiry": "2023-04-08",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 442837, "type": "R" },
+      { "id": 442838, "type": "A" },
+      { "id": 442839, "type": "T" },
+      { "id": 442840, "type": "O" }
+    ]
+  },
+  {
+    "id": 86638,
+    "domain_name": "qmrtechnology.net",
+    "domain_name_ascii": "qmrtechnology.net",
+    "registry_expiry": "2023-04-08",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 442849, "type": "R" },
+      { "id": 442850, "type": "A" },
+      { "id": 442851, "type": "T" },
+      { "id": 442852, "type": "O" }
+    ]
+  },
+  {
+    "id": 86639,
+    "domain_name": "tecnologiaqmr.net",
+    "domain_name_ascii": "tecnologiaqmr.net",
+    "registry_expiry": "2023-04-08",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 442869, "type": "R" },
+      { "id": 442870, "type": "A" },
+      { "id": 442871, "type": "T" },
+      { "id": 442872, "type": "O" }
+    ]
+  },
+  {
+    "id": 86640,
+    "domain_name": "qmrtherapy.net",
+    "domain_name_ascii": "qmrtherapy.net",
+    "registry_expiry": "2023-04-08",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 442829, "type": "R" },
+      { "id": 442830, "type": "A" },
+      { "id": 442831, "type": "T" },
+      { "id": 442832, "type": "O" }
+    ]
+  },
+  {
+    "id": 86641,
+    "domain_name": "qmrterapia.net",
+    "domain_name_ascii": "qmrterapia.net",
+    "registry_expiry": "2023-04-08",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 442821, "type": "R" },
+      { "id": 442822, "type": "A" },
+      { "id": 442823, "type": "T" },
+      { "id": 442824, "type": "O" }
+    ]
+  },
+  {
+    "id": 86642,
+    "domain_name": "terapiaqmr.net",
+    "domain_name_ascii": "terapiaqmr.net",
+    "registry_expiry": "2023-04-08",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 442857, "type": "R" },
+      { "id": 442858, "type": "A" },
+      { "id": 442859, "type": "T" },
+      { "id": 442860, "type": "O" }
+    ]
+  },
+  {
+    "id": 86643,
+    "domain_name": "teleaelectronicengineering.net",
+    "domain_name_ascii": "teleaelectronicengineering.net",
+    "registry_expiry": "2023-04-08",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 442861, "type": "R" },
+      { "id": 442862, "type": "A" },
+      { "id": 442863, "type": "T" },
+      { "id": 442864, "type": "O" }
+    ]
+  },
+  {
+    "id": 86644,
+    "domain_name": "teleamedicalgroup.net",
+    "domain_name_ascii": "teleamedicalgroup.net",
+    "registry_expiry": "2023-04-08",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 442865, "type": "R" },
+      { "id": 442866, "type": "A" },
+      { "id": 442867, "type": "T" },
+      { "id": 442868, "type": "O" }
+    ]
+  },
+  {
+    "id": 86649,
+    "domain_name": "qmrtechnology.org",
+    "domain_name_ascii": "qmrtechnology.org",
+    "registry_expiry": "2023-04-08",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 442761, "type": "R" },
+      { "id": 442762, "type": "A" },
+      { "id": 442763, "type": "T" },
+      { "id": 442764, "type": "O" }
+    ]
+  },
+  {
+    "id": 86650,
+    "domain_name": "tecnologiaqmr.org",
+    "domain_name_ascii": "tecnologiaqmr.org",
+    "registry_expiry": "2023-04-08",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 442757, "type": "R" },
+      { "id": 442758, "type": "A" },
+      { "id": 442759, "type": "T" },
+      { "id": 442760, "type": "O" }
+    ]
+  },
+  {
+    "id": 86651,
+    "domain_name": "qmrtherapy.org",
+    "domain_name_ascii": "qmrtherapy.org",
+    "registry_expiry": "2023-04-08",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 442817, "type": "R" },
+      { "id": 442818, "type": "A" },
+      { "id": 442819, "type": "T" },
+      { "id": 442820, "type": "O" }
+    ]
+  },
+  {
+    "id": 86652,
+    "domain_name": "qmrterapia.org",
+    "domain_name_ascii": "qmrterapia.org",
+    "registry_expiry": "2023-04-08",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 442809, "type": "R" },
+      { "id": 442810, "type": "A" },
+      { "id": 442811, "type": "T" },
+      { "id": 442812, "type": "O" }
+    ]
+  },
+  {
+    "id": 86653,
+    "domain_name": "terapiaqmr.org",
+    "domain_name_ascii": "terapiaqmr.org",
+    "registry_expiry": "2023-04-08",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 442749, "type": "R" },
+      { "id": 442750, "type": "A" },
+      { "id": 442751, "type": "T" },
+      { "id": 442752, "type": "O" }
+    ]
+  },
+  {
+    "id": 86654,
+    "domain_name": "teleaelectronicengineering.org",
+    "domain_name_ascii": "teleaelectronicengineering.org",
+    "registry_expiry": "2023-04-08",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 442753, "type": "R" },
+      { "id": 442754, "type": "A" },
+      { "id": 442755, "type": "T" },
+      { "id": 442756, "type": "O" }
+    ]
+  },
+  {
+    "id": 86655,
+    "domain_name": "teleabiotech.org",
+    "domain_name_ascii": "teleabiotech.org",
+    "registry_expiry": "2023-04-08",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 442785, "type": "R" },
+      { "id": 442786, "type": "A" },
+      { "id": 442787, "type": "T" },
+      { "id": 442788, "type": "O" }
+    ]
+  },
+  {
+    "id": 86662,
+    "domain_name": "qmrtherapy.eu",
+    "domain_name_ascii": "qmrtherapy.eu",
+    "registry_expiry": "2023-04-08",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 442765, "type": "R" },
+      { "id": 442766, "type": "A" },
+      { "id": 442767, "type": "T" },
+      { "id": 442768, "type": "O" }
+    ]
+  },
+  {
+    "id": 86663,
+    "domain_name": "teleaelectronicengineering.eu",
+    "domain_name_ascii": "teleaelectronicengineering.eu",
+    "registry_expiry": "2023-04-08",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 442721, "type": "R" },
+      { "id": 442722, "type": "A" },
+      { "id": 442723, "type": "T" },
+      { "id": 442724, "type": "O" }
+    ]
+  },
+  {
+    "id": 86664,
+    "domain_name": "teleamedicalgroup.eu",
+    "domain_name_ascii": "teleamedicalgroup.eu",
+    "registry_expiry": "2023-04-08",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 442717, "type": "R" },
+      { "id": 442718, "type": "A" },
+      { "id": 442719, "type": "T" },
+      { "id": 442720, "type": "O" }
+    ]
+  },
+  {
+    "id": 86665,
+    "domain_name": "teleabiotech.net",
+    "domain_name_ascii": "teleabiotech.net",
+    "registry_expiry": "2023-04-08",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 442713, "type": "R" },
+      { "id": 442714, "type": "A" },
+      { "id": 442715, "type": "T" },
+      { "id": 442716, "type": "O" }
+    ]
+  },
+  {
+    "id": 86668,
+    "domain_name": "teleamedicalgroup.org",
+    "domain_name_ascii": "teleamedicalgroup.org",
+    "registry_expiry": "2023-04-08",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 442701, "type": "R" },
+      { "id": 442702, "type": "A" },
+      { "id": 442703, "type": "T" },
+      { "id": 442704, "type": "O" }
+    ]
+  },
+  {
+    "id": 86675,
+    "domain_name": "qmrtechnology.eu",
+    "domain_name_ascii": "qmrtechnology.eu",
+    "registry_expiry": "2023-04-08",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 442696, "type": "R" },
+      { "id": 442697, "type": "A" },
+      { "id": 442698, "type": "T" },
+      { "id": 442699, "type": "O" }
+    ]
+  },
+  {
+    "id": 86735,
+    "domain_name": "andreacazzola.it",
+    "domain_name_ascii": "andreacazzola.it",
+    "registry_expiry": "2023-04-13",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 443282, "type": "R" },
+      { "id": 443283, "type": "A" },
+      { "id": 443284, "type": "T" },
+      { "id": 443285, "type": "O" }
+    ]
+  },
+  {
+    "id": 86944,
+    "domain_name": "casolinomoderno.it",
+    "domain_name_ascii": "casolinomoderno.it",
+    "registry_expiry": "2023-04-19",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 444335, "type": "R" },
+      { "id": 444336, "type": "A" },
+      { "id": 444337, "type": "T" },
+      { "id": 444338, "type": "O" }
+    ]
+  },
+  {
+    "id": 87810,
+    "domain_name": "responsasrl.it",
+    "domain_name_ascii": "responsasrl.it",
+    "registry_expiry": "2022-06-15",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 450309, "type": "R" },
+      { "id": 450310, "type": "A" },
+      { "id": 450311, "type": "T" },
+      { "id": 450312, "type": "O" }
+    ]
+  },
+  {
+    "id": 87811,
+    "domain_name": "responsasrl.com",
+    "domain_name_ascii": "responsasrl.com",
+    "registry_expiry": "2023-06-15",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 450313, "type": "R" },
+      { "id": 450314, "type": "A" },
+      { "id": 450315, "type": "T" },
+      { "id": 450316, "type": "O" }
+    ]
+  },
+  {
+    "id": 87967,
+    "domain_name": "crt78.com",
+    "domain_name_ascii": "crt78.com",
+    "registry_expiry": "2022-06-22",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 451005, "type": "A" },
+      { "id": 451006, "type": "T" },
+      { "id": 451007, "type": "O" },
+      { "id": 451654, "type": "R" }
+    ]
+  },
+  {
+    "id": 88406,
+    "domain_name": "corsodigentilezza.it",
+    "domain_name_ascii": "corsodigentilezza.it",
+    "registry_expiry": "2022-07-21",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 454043, "type": "R" },
+      { "id": 454044, "type": "A" },
+      { "id": 454045, "type": "T" },
+      { "id": 454046, "type": "O" }
+    ]
+  },
+  {
+    "id": 88407,
+    "domain_name": "corsodigentilezza.com",
+    "domain_name_ascii": "corsodigentilezza.com",
+    "registry_expiry": "2022-07-22",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 454062, "type": "R" },
+      { "id": 454063, "type": "A" },
+      { "id": 454064, "type": "T" },
+      { "id": 454065, "type": "O" }
+    ]
+  },
+  {
+    "id": 88408,
+    "domain_name": "corsodigentilezza.eu",
+    "domain_name_ascii": "corsodigentilezza.eu",
+    "registry_expiry": "2022-07-22",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 454058, "type": "R" },
+      { "id": 454059, "type": "A" },
+      { "id": 454060, "type": "T" },
+      { "id": 454061, "type": "O" }
+    ]
+  },
+  {
+    "id": 88672,
+    "domain_name": "agpowersrl.it",
+    "domain_name_ascii": "agpowersrl.it",
+    "registry_expiry": "2022-08-06",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 455768, "type": "R" },
+      { "id": 455769, "type": "A" },
+      { "id": 455770, "type": "T" },
+      { "id": 455771, "type": "O" }
+    ]
+  },
+  {
+    "id": 88673,
+    "domain_name": "agpowersrl.com",
+    "domain_name_ascii": "agpowersrl.com",
+    "registry_expiry": "2022-08-06",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 455744, "type": "R" },
+      { "id": 455745, "type": "A" },
+      { "id": 455746, "type": "T" },
+      { "id": 455747, "type": "O" }
+    ]
+  },
+  {
+    "id": 89746,
+    "domain_name": "paroletestuali.it",
+    "domain_name_ascii": "paroletestuali.it",
+    "registry_expiry": "2022-10-11",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 462637, "type": "R" },
+      { "id": 462638, "type": "A" },
+      { "id": 462639, "type": "T" },
+      { "id": 462640, "type": "O" }
+    ]
+  },
+  {
+    "id": 90681,
+    "domain_name": "tuoteam.com",
+    "domain_name_ascii": "tuoteam.com",
+    "registry_expiry": "2023-01-18",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 469064, "type": "R" },
+      { "id": 469065, "type": "A" },
+      { "id": 469066, "type": "T" },
+      { "id": 469067, "type": "O" }
+    ]
+  },
+  {
+    "id": 90682,
+    "domain_name": "settant8.com",
+    "domain_name_ascii": "settant8.com",
+    "registry_expiry": "2023-01-18",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 468774, "type": "R" },
+      { "id": 468775, "type": "A" },
+      { "id": 468776, "type": "T" },
+      { "id": 468777, "type": "O" }
+    ]
+  },
+  {
+    "id": 91713,
+    "domain_name": "valleograassicurazioni.it",
+    "domain_name_ascii": "valleograassicurazioni.it",
+    "registry_expiry": "2023-01-10",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 475238, "type": "R" },
+      { "id": 475239, "type": "A" },
+      { "id": 475240, "type": "T" },
+      { "id": 475241, "type": "O" }
+    ]
+  },
+  {
+    "id": 28499,
+    "domain_name": "mylamination.it",
+    "domain_name_ascii": "mylamination.it",
+    "registry_expiry": "2023-01-31",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 479872, "type": "A" },
+      { "id": 479873, "type": "T" },
+      { "id": 479874, "type": "O" },
+      { "id": 480810, "type": "R" }
+    ]
+  },
+  {
+    "id": 92047,
+    "domain_name": "logos4you.it",
+    "domain_name_ascii": "logos4you.it",
+    "registry_expiry": "2023-01-28",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 477499, "type": "R" },
+      { "id": 477500, "type": "A" },
+      { "id": 477501, "type": "T" },
+      { "id": 477502, "type": "O" }
+    ]
+  },
+  {
+    "id": 90489,
+    "domain_name": "fisiopolis.com",
+    "domain_name_ascii": "fisiopolis.com",
+    "registry_expiry": "2023-06-21",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 484793, "type": "R" },
+      { "id": 484794, "type": "A" },
+      { "id": 484795, "type": "T" },
+      { "id": 484796, "type": "O" }
+    ]
+  },
+  {
+    "id": 93250,
+    "domain_name": "verynicefestival.it",
+    "domain_name_ascii": "verynicefestival.it",
+    "registry_expiry": "2023-03-04",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 485612, "type": "R" },
+      { "id": 485613, "type": "A" },
+      { "id": 485614, "type": "T" },
+      { "id": 485615, "type": "O" }
+    ]
+  },
+  {
+    "id": 93251,
+    "domain_name": "verynicefestival.com",
+    "domain_name_ascii": "verynicefestival.com",
+    "registry_expiry": "2023-03-04",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 485616, "type": "R" },
+      { "id": 485617, "type": "A" },
+      { "id": 485618, "type": "T" },
+      { "id": 485619, "type": "O" }
+    ]
+  },
+  {
+    "id": 93252,
+    "domain_name": "verynicefestival.net",
+    "domain_name_ascii": "verynicefestival.net",
+    "registry_expiry": "2023-03-04",
+    "registry_status": "clientTransferProhibited",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 485621, "type": "A" },
+      { "id": 485622, "type": "T" },
+      { "id": 485623, "type": "O" },
+      { "id": 486307, "type": "R" }
+    ]
+  },
+  {
+    "id": 93253,
+    "domain_name": "verynicefestival.eu",
+    "domain_name_ascii": "verynicefestival.eu",
+    "registry_expiry": "2023-03-04",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 485624, "type": "R" },
+      { "id": 485625, "type": "A" },
+      { "id": 485626, "type": "T" },
+      { "id": 485627, "type": "O" }
+    ]
+  },
+  {
+    "id": 93332,
+    "domain_name": "opera-prima.eu",
+    "domain_name_ascii": "opera-prima.eu",
+    "registry_expiry": "2023-06-08",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 486891, "type": "R" },
+      { "id": 486892, "type": "A" },
+      { "id": 486893, "type": "T" },
+      { "id": 486894, "type": "O" }
+    ]
+  },
+  {
+    "id": 93575,
+    "domain_name": "corsilaminazionesopracciglia.it",
+    "domain_name_ascii": "corsilaminazionesopracciglia.it",
+    "registry_expiry": "2023-03-23",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 488050, "type": "R" },
+      { "id": 488051, "type": "A" },
+      { "id": 488052, "type": "T" },
+      { "id": 488053, "type": "O" }
+    ]
+  },
+  {
+    "id": 93576,
+    "domain_name": "laminazionesopracciglia.it",
+    "domain_name_ascii": "laminazionesopracciglia.it",
+    "registry_expiry": "2023-03-23",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 488046, "type": "R" },
+      { "id": 488047, "type": "A" },
+      { "id": 488048, "type": "T" },
+      { "id": 488049, "type": "O" }
+    ]
+  },
+  {
+    "id": 94519,
+    "domain_name": "mariateresacasarotto.it",
+    "domain_name_ascii": "mariateresacasarotto.it",
+    "registry_expiry": "2023-05-10",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 495444, "type": "R" },
+      { "id": 495445, "type": "A" },
+      { "id": 495446, "type": "T" },
+      { "id": 495447, "type": "O" }
+    ]
+  },
+  {
+    "id": 94895,
+    "domain_name": "food24.it",
+    "domain_name_ascii": "food24.it",
+    "registry_expiry": "2023-06-09",
+    "registry_status": "ok",
+    "nameservers": [
+      { "hostname": "ns1.serverlet.com", "ip": "185.24.69.235" },
+      { "hostname": "ns2.serverlet.com", "ip": "178.33.142.161" },
+      { "hostname": "ns3.serverlet.it", "ip": "130.185.108.70" }
+    ],
+    "dnssec_enabled": false,
+    "dns_type": "INTERNAL",
+    "domain_contacts": [
+      { "id": 498300, "type": "R" },
+      { "id": 498301, "type": "A" },
+      { "id": 498302, "type": "T" },
+      { "id": 498303, "type": "O" }
+    ]
+  }
+]

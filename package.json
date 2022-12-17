@@ -1,0 +1,32 @@
+{
+  "name": "githubtools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matteo002Turcato/githubtools.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matteo002Turcato/githubtools/issues"
+  },
+  "homepage": "https://github.com/Matteo002Turcato/githubtools#readme",
+  "scripts": {
+    "server-dev": "cd server && npm run dev",
+    "server-build": "cd server && npm run build",
+    "server-start": "cd server && start",
+    "client-build": "cd client && npm run build",
+    "client-dev": "cd client && npm start",
+    "dev": "concurrently -n server,client -c magenta,cyan \"yarn server-dev\" \"yarn client-dev\"",
+    "build": "yarn server-build && yarn client-build"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.46.1",
+    "concurrently": "^7.6.0",
+    "eslint": "^8.0.1",
+    "typescript": "*"
+  }
+}

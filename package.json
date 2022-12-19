@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/Matteo002Turcato/githubtools#readme",
   "scripts": {
-    "server-dev": "cd server && npm run dev",
+    "server-dev": "cd server && npm run dev ",
     "server-build": "cd server && npm run build",
     "server-start": "cd server && start",
     "client-build": "cd client && npm run build",

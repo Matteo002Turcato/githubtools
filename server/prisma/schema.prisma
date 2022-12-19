@@ -45,10 +45,9 @@ model Agency {
   address     String?
   logo        String // url Logo
   pIva        String   @unique
-  createdAt   DateTime @default(now()) 
+  createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
   clients     Client[]
-
 }
 
 // Client  // tabella da rivedere
@@ -72,7 +71,6 @@ model Client {
   services    Service[]
   createdAt   DateTime  @default(now())
   updatedAt   DateTime  @updatedAt
-
 }
 
 enum Type {
@@ -101,19 +99,16 @@ model Service {
   createdAt         DateTime    @default(now())
   updatedAt         DateTime    @updatedAt
   Service           Service[]   @relation("primaryServcice")
-
 }
 
 enum State {
   active
   disable
-
 }
 
 enum TypeService {
   primary
   secondary
-
 }
 
 // Category  
@@ -125,14 +120,13 @@ model Category {
   createdAt DateTime  @default(now())
   updatedAt DateTime  @updatedAt
   Service   Service[]
-
 }
 
 // Tabella per id shellrent
 // ============================================================================
 
 model ServiceShId {
-  id        Int @id @default(autoincrement())
+  id        Int      @id @default(autoincrement())
   ServiceId Int
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt

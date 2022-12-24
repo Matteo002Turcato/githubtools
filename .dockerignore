@@ -1,0 +1,14 @@
+.git/
+**/.gitignore
+**/.dockerignore
+**/.eslintrc.js
+**/nodemon.json
+**/Dockerfile
+**/docker-compose.yml
+**/docker-compose.production.yml
+**/node_modules/
+**/.env.development.example
+**/.env.development
+**/.env.example
+**/tsconfig.tsbuildinfo
+build/

@@ -7,8 +7,8 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-// User(utente che accede)
-// ============================================================================
+// // User(utente che accede)
+// // ============================================================================
 
 model User {
   id            Int             @id @default(autoincrement())
@@ -34,140 +34,140 @@ model PasswordReset {
   createdAt DateTime @updatedAt
 }
 
-// Agency  // tabella da rivedere
-// ============================================================================
+// // Agency  // tabella da rivedere
+// // ============================================================================
 
-model Agency {
-  id          Int      @id @default(autoincrement())
-  companyName String
-  email       String   @unique
-  phone       String?
-  address     String?
-  logo        String // url Logo
-  pIva        String   @unique
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
-  clients     Client[]
-}
+// model Agency {
+//   id          Int      @id @default(autoincrement())
+//   companyName String
+//   email       String   @unique
+//   phone       String?
+//   address     String?
+//   logo        String // url Logo
+//   pIva        String   @unique
+//   createdAt   DateTime @default(now())
+//   updatedAt   DateTime @updatedAt
+//   clients     Client[]
+// }
 
-// Client  // tabella da rivedere
-// ============================================================================
+// // Client  // tabella da rivedere
+// // ============================================================================
 
-model Client {
-  id          Int       @id @default(autoincrement())
-  type        Type
-  name        String?
-  surname     String?
-  companyName String
-  pIva        String    @unique
-  address     String    @unique
-  fiscalCode  String?
-  email       String
-  phone       String?
-  pec         String?
-  sdi         String?
-  agency      Agency    @relation(fields: [agencyId], references: [id])
-  agencyId    Int
-  services    Service[]
-  createdAt   DateTime  @default(now())
-  updatedAt   DateTime  @updatedAt
-}
+// model Client {
+//   id          Int       @id @default(autoincrement())
+//   type        Type
+//   name        String?
+//   surname     String?
+//   companyName String
+//   pIva        String    @unique
+//   address     String    @unique
+//   fiscalCode  String?
+//   email       String
+//   phone       String?
+//   pec         String?
+//   sdi         String?
+//   agency      Agency    @relation(fields: [agencyId], references: [id])
+//   agencyId    Int
+//   services    Service[]
+//   createdAt   DateTime  @default(now())
+//   updatedAt   DateTime  @updatedAt
+// }
 
-enum Type {
-  Company
-  Holder
-}
+// enum Type {
+//   Company
+//   Holder
+// }
 
-// Service // tabella da rivedere
-// ============================================================================
+// // Service // tabella da rivedere
+// // ============================================================================
 
-model Service {
-  id                Int         @id @default(autoincrement())
-  name              String
-  typeService       TypeService
-  category          Category    @relation(fields: [categoryId], references: [id])
-  categoryId        Int
-  costService       Float
-  costServiceMarkup Float
-  prymaryService    Service?    @relation("primaryServcice", fields: [primaryServiceId], references: [id])
-  primaryServiceId  Int?
-  state             State
-  client            Client      @relation(fields: [clientId], references: [id])
-  clientId          Int
-  dateExpiry        DateTime?
-  autorenewDate     DateTime?
-  createdAt         DateTime    @default(now())
-  updatedAt         DateTime    @updatedAt
-  Service           Service[]   @relation("primaryServcice")
-}
+// model Service {
+//   id                Int         @id @default(autoincrement())
+//   name              String
+//   typeService       TypeService
+//   category          Category    @relation(fields: [categoryId], references: [id])
+//   categoryId        Int
+//   costService       Float
+//   costServiceMarkup Float
+//   prymaryService    Service?    @relation("primaryServcice", fields: [primaryServiceId], references: [id])
+//   primaryServiceId  Int?
+//   state             State
+//   client            Client      @relation(fields: [clientId], references: [id])
+//   clientId          Int
+//   dateExpiry        DateTime?
+//   autorenewDate     DateTime?
+//   createdAt         DateTime    @default(now())
+//   updatedAt         DateTime    @updatedAt
+//   Service           Service[]   @relation("primaryServcice")
+// }
 
-enum State {
-  active
-  disable
-}
+// enum State {
+//   active
+//   disable
+// }
 
-enum TypeService {
-  primary
-  secondary
-}
+// enum TypeService {
+//   primary
+//   secondary
+// }
 
-// Category  
-// ============================================================================
+// // Category  
+// // ============================================================================
 
-model Category {
-  id        Int       @id @default(autoincrement())
-  name      String
-  createdAt DateTime  @default(now())
-  updatedAt DateTime  @updatedAt
-  Service   Service[]
-}
+// model Category {
+//   id        Int       @id @default(autoincrement())
+//   name      String
+//   createdAt DateTime  @default(now())
+//   updatedAt DateTime  @updatedAt
+//   Service   Service[]
+// }
 
-// Tabella per id shellrent
-// ============================================================================
+// // Tabella per id shellrent
+// // ============================================================================
 
-model ServiceShId {
-  id        Int      @id @default(autoincrement())
-  ServiceId Int
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-}
-
-// model DomainShId {
-//   id       Int @id @default(autoincrement())
-//   DomainId Int
-
+// model ServiceShId {
+//   id        Int      @id @default(autoincrement())
+//   ServiceId Int
 //   createdAt DateTime @default(now())
 //   updatedAt DateTime @updatedAt
 // }
 
-// model CertificateShId {
-//   id            Int @id @default(autoincrement())
-//   CertificateId Int
+// // model DomainShId {
+// //   id       Int @id @default(autoincrement())
+// //   DomainId Int
 
-//   createdAt DateTime @default(now())
-//   updatedAt DateTime @updatedAt
-// }
+// //   createdAt DateTime @default(now())
+// //   updatedAt DateTime @updatedAt
+// // }
 
-// model WebHostingShId {
-//   id           Int @id @default(autoincrement())
-//   WebHostingId Int
+// // model CertificateShId {
+// //   id            Int @id @default(autoincrement())
+// //   CertificateId Int
 
-//   createdAt DateTime @default(now())
-//   updatedAt DateTime @updatedAt
-// }
+// //   createdAt DateTime @default(now())
+// //   updatedAt DateTime @updatedAt
+// // }
 
-// model ServerShId {
-//   id       Int @id @default(autoincrement())
-//   ServerId Int
+// // model WebHostingShId {
+// //   id           Int @id @default(autoincrement())
+// //   WebHostingId Int
 
-//   createdAt DateTime @default(now())
-//   updatedAt DateTime @updatedAt
-// }
+// //   createdAt DateTime @default(now())
+// //   updatedAt DateTime @updatedAt
+// // }
 
-// model ServerVmShId {
-//   id         Int @id @default(autoincrement())
-//   ServerVmId Int
+// // model ServerShId {
+// //   id       Int @id @default(autoincrement())
+// //   ServerId Int
 
-//   createdAt DateTime @default(now())
-//   updatedAt DateTime @updatedAt
-// }
+// //   createdAt DateTime @default(now())
+// //   updatedAt DateTime @updatedAt
+// // }
+
+// // model ServerVmShId {
+// //   id         Int @id @default(autoincrement())
+// //   ServerVmId Int
+
+// //   createdAt DateTime @default(now())
+// //   updatedAt DateTime @updatedAt
+// // }

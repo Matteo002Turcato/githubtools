@@ -1,0 +1,36 @@
+version: '3'
+services:
+  mysqldb:
+    image: mysql:5.7
+    restart: unless-stopped
+    env_file:
+      - .env.development
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_TCP_PORT: ${MYSQL_LOCAL_PORT}
+    ports:
+      - ${MYSQL_LOCAL_PORT}:${MYSQL_LOCAL_PORT}
+    volumes:
+      - mysql:/var/lib/mysql
+      - ./db/backup/files/:/data_backup/data
+
+  phpmyadmin:
+    image: phpmyadmin
+    restart: unless-stopped
+    depends_on:
+      - mysqldb
+    ports:
+      - $PHPMYADMIN_PORT
+    environment:
+      - PMA_HOST=mysqldb
+      - PMA_PORT=${MYSQL_LOCAL_PORT}
+      - UPLOAD_LIMIT="50M"
+    volumes:
+      - /sessions
+      - ~/docker/phpmyadmin/config.user.inc.php:/etc/phpmyadmin/config.user.inc.php
+
+volumes:
+  mysql:

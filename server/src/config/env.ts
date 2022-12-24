@@ -1,5 +1,5 @@
 const env = {
-  NODE_ENV: process.env.NODE_ENV,
+  ENV: process.env.ENV,
   JWT_ISSUER: process.env.JWT_ISSUER || 'issuer',
   JWT_LIFETIME: +(process.env.JWT_LIFETIME || 3600),
   JWT_PRIVATE_KEY: process.env.JWT_PRIVATE_KEY || '',
@@ -10,7 +10,16 @@ const env = {
   COOKIES_DOMAIN: process.env.COOKIES_DOMAIN,
   BASE_URL: process.env.BASE_URL,
   PASSWORD_RESET_EXPIRE_TIME: +(process.env.PASSWORD_RESET_EXPIRE_TIME || 3600),
-  RECAPTCHA_PRIVATE_KEY: process.env.RECAPTCHA_PRIVATE_KEY,
+  RECAPTCHA_PRIVATE_KEY: process.env.RECAPTCHA_PRIVATE_KEY || '',
+  CLICKUP_WEBHOOK_SECRET: process.env.CLICKUP_WEBHOOK_SECRET || '',
+  CLICKUP_API_KEY: process.env.CLICKUP_API_KEY || '',
+  TMETRIC_API_KEY: process.env.TMETRIC_API_KEY || '',
+  SHELLRENT_API_KEY: process.env.SHELLRENT_API_KEY,
+  SMTP_HOST: process.env.SMTP_HOST || 'localhost',
+  SMTP_PORT: process.env.SMTP_PORT || 587,
+  SMTP_USER: process.env.SMTP_USER,
+  SMTP_PASSWORD: process.env.SMTP_PASSWORD,
+  GITHUB_TOKEN: process.env.GITHUB_TOKEN || '',
 };
 
 export default env;

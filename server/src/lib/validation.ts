@@ -319,129 +319,129 @@ export const isFiscalCode: ValidationFunction = async (key, value, _values) => {
   return value;
 };
 
-export const isUserEmailAvailable = (
-  userIdToExclude?: number
-): ValidationFunction => {
-  const isUserEmailAvailableFun: ValidationFunction = async (
-    key,
-    value,
-    _values
-  ) => {
-    if (!isEmpty(value) && typeof value === 'string') {
-      if (
-        (await prisma.user.count({
-          where: { email: value, id: { not: userIdToExclude } },
-        })) !== 0
-      ) {
-        throw { [key]: ['Email già utilizzata'] };
-      }
-    }
+// export const isUserEmailAvailable = (
+//   userIdToExclude?: number
+// ): ValidationFunction => {
+//   const isUserEmailAvailableFun: ValidationFunction = async (
+//     key,
+//     value,
+//     _values
+//   ) => {
+//     if (!isEmpty(value) && typeof value === 'string') {
+//       if (
+//         (await prisma.user.count({
+//           where: { email: value, id: { not: userIdToExclude } },
+//         })) !== 0
+//       ) {
+//         throw { [key]: ['Email già utilizzata'] };
+//       }
+//     }
 
-    return value;
-  };
+//     return value;
+//   };
 
-  return isUserEmailAvailableFun;
-};
+//   return isUserEmailAvailableFun;
+// };
 
-export const isClientEmailAvailable = (
-  userIdToExclude?: number
-): ValidationFunction => {
-  const isClientEmailAvailableFun: ValidationFunction = async (
-    key,
-    value,
-    _values
-  ) => {
-    if (!isEmpty(value) && typeof value === 'string') {
-      if (
-        (await prisma.client.count({
-          where: { email: value, id: { not: userIdToExclude } },
-        })) !== 0
-      ) {
-        throw { [key]: ['Email già utilizzata'] };
-      }
-    }
-    return value;
-  };
+// export const isClientEmailAvailable = (
+//   userIdToExclude?: number
+// ): ValidationFunction => {
+//   const isClientEmailAvailableFun: ValidationFunction = async (
+//     key,
+//     value,
+//     _values
+//   ) => {
+//     if (!isEmpty(value) && typeof value === 'string') {
+//       if (
+//         (await prisma.client.count({
+//           where: { email: value, id: { not: userIdToExclude } },
+//         })) !== 0
+//       ) {
+//         throw { [key]: ['Email già utilizzata'] };
+//       }
+//     }
+//     return value;
+//   };
 
-  return isClientEmailAvailableFun;
-};
+//   return isClientEmailAvailableFun;
+// };
 
-export const isAgencyEmailAvailable = (
-  userIdToExclude?: number
-): ValidationFunction => {
-  const isAgencyEmailAvailableFun: ValidationFunction = async (
-    key,
-    value,
-    _values
-  ) => {
-    if (!isEmpty(value) && typeof value === 'string') {
-      if (
-        (await prisma.agency.count({
-          where: { email: value, id: { not: userIdToExclude } },
-        })) !== 0
-      ) {
-        throw { [key]: ['Email già utilizzata'] };
-      }
-    }
-    return value;
-  };
+// export const isAgencyEmailAvailable = (
+//   userIdToExclude?: number
+// ): ValidationFunction => {
+//   const isAgencyEmailAvailableFun: ValidationFunction = async (
+//     key,
+//     value,
+//     _values
+//   ) => {
+//     if (!isEmpty(value) && typeof value === 'string') {
+//       if (
+//         (await prisma.agency.count({
+//           where: { email: value, id: { not: userIdToExclude } },
+//         })) !== 0
+//       ) {
+//         throw { [key]: ['Email già utilizzata'] };
+//       }
+//     }
+//     return value;
+//   };
 
-  return isAgencyEmailAvailableFun;
-};
+//   return isAgencyEmailAvailableFun;
+// };
 
-export const isClientIdValid: ValidationFunction = async (
-  key,
-  value,
-  _values
-) => {
-  if (!isEmpty(value) && typeof value === 'number') {
-    if ((await prisma.client.count({ where: { id: value } })) === 0) {
-      throw { [key]: ['Il cliente selezionato non esiste'] };
-    }
-  }
+// export const isClientIdValid: ValidationFunction = async (
+//   key,
+//   value,
+//   _values
+// ) => {
+//   if (!isEmpty(value) && typeof value === 'number') {
+//     if ((await prisma.client.count({ where: { id: value } })) === 0) {
+//       throw { [key]: ['Il cliente selezionato non esiste'] };
+//     }
+//   }
 
-  return value;
-};
-export const isServiceIdValid: ValidationFunction = async (
-  key,
-  value,
-  _values
-) => {
-  if (!isEmpty(value) && typeof value === 'number') {
-    if ((await prisma.service.count({ where: { id: value } })) === 0) {
-      throw { [key]: ['Il servizio selezionato non esiste'] };
-    }
-  }
+//   return value;
+// };
+// export const isServiceIdValid: ValidationFunction = async (
+//   key,
+//   value,
+//   _values
+// ) => {
+//   if (!isEmpty(value) && typeof value === 'number') {
+//     if ((await prisma.service.count({ where: { id: value } })) === 0) {
+//       throw { [key]: ['Il servizio selezionato non esiste'] };
+//     }
+//   }
 
-  return value;
-};
+//   return value;
+// };
 
-export const isAgencyIdValid: ValidationFunction = async (
-  key,
-  value,
-  _values
-) => {
-  if (!isEmpty(value) && typeof value === 'number') {
-    if ((await prisma.agency.count({ where: { id: value } })) === 0) {
-      throw { [key]: ["L'agenzia selezionata non esiste"] };
-    }
-  }
+// export const isAgencyIdValid: ValidationFunction = async (
+//   key,
+//   value,
+//   _values
+// ) => {
+//   if (!isEmpty(value) && typeof value === 'number') {
+//     if ((await prisma.agency.count({ where: { id: value } })) === 0) {
+//       throw { [key]: ["L'agenzia selezionata non esiste"] };
+//     }
+//   }
 
-  return value;
-};
+//   return value;
+// };
 
-export const IscategoryIdValid: ValidationFunction = async (
-  key,
-  value,
-  _values
-) => {
-  if (!isEmpty(value) && typeof value === 'number') {
-    if ((await prisma.category.count({ where: { id: value } })) === 0) {
-      throw { [key]: ['La categoria selezionata non esiste'] };
-    }
-  }
-  return value;
-};
+// export const IscategoryIdValid: ValidationFunction = async (
+//   key,
+//   value,
+//   _values
+// ) => {
+//   if (!isEmpty(value) && typeof value === 'number') {
+//     if ((await prisma.category.count({ where: { id: value } })) === 0) {
+//       throw { [key]: ['La categoria selezionata non esiste'] };
+//     }
+//   }
+//   return value;
+// };
 /*
 export const isSellerEmailAvailable: ValidationFunction = async (
   key,

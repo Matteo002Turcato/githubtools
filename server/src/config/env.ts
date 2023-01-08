@@ -1,5 +1,5 @@
 const env = {
-  ENV: process.env.ENV,
+  NODE_ENV: process.env.ENV,
   JWT_ISSUER: process.env.JWT_ISSUER || 'issuer',
   JWT_LIFETIME: +(process.env.JWT_LIFETIME || 3600),
   JWT_PRIVATE_KEY: process.env.JWT_PRIVATE_KEY || '',

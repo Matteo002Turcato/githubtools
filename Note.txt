@@ -1,0 +1,17 @@
+Taskstatus:
+Title:string
+color:string
+lista di task
+project???
+riferimento user
+riferimento a repo
+
+
+
+Task:
+Titile
+desctiption 
+sotto task ????
+checklist???
+priority 
+riferimento taskstatus 

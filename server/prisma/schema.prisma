@@ -18,6 +18,7 @@ model User {
   updatedAt     DateTime        @updatedAt
   RefreshTokens RefreshTokens[]
   PasswordReset PasswordReset[]
+  TaskStatus    TaskStatus[]
 }
 
 model RefreshTokens {
@@ -32,6 +33,35 @@ model PasswordReset {
   token     String   @unique
   user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
   createdAt DateTime @updatedAt
+}
+
+model TaskStatus {
+  id          Int      @id @default(autoincrement())
+  title       String
+  description String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  Task        Task[]
+  user        User     @relation(fields: [userId], references: [id])
+  userId      Int
+}
+
+model Task {
+  id          Int          @id @default(autoincrement())
+  title       String
+  description String
+  status      TaskStatus   @relation(fields: [statusId], references: [id])
+  statusId    Int
+  priority    TaskPriority
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+}
+
+enum TaskPriority {
+  Clear
+  Low
+  Medium
+  High
 }
 
 // // Agency  // tabella da rivedere

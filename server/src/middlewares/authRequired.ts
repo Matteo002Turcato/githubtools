@@ -1,7 +1,7 @@
+import type { NextFunction, Request, Response } from 'express';
 import { decodeJWT, verifyJWT } from '@lib/jwt';
 
-export default async (req: any, res: any, next: any) => {
-  // Get bearer token
+export default async (req: Request, res: Response, next: NextFunction) => {
   const authorization = req.headers.authorization;
 
   if (!authorization) {
@@ -17,9 +17,9 @@ export default async (req: any, res: any, next: any) => {
   }
 
   const token = authorizationArray[1];
+  const refresh = req.cookies.refreshToken;
 
-  // Check if refresh token is present to prevent valid tokens after logout
-  if (!(await verifyJWT(token)) || !req.cookies.refreshToken) {
+  if (!(await verifyJWT(token)) || !refresh) {
     return res.status(401).json({ message: 'Token is not valid' });
   }
 

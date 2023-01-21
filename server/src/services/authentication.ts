@@ -11,7 +11,7 @@ export async function authenticate(
   email: string,
   password: string
 ): Promise<AuthInfo | null> {
-  const user = await prisma.user.findFirst({ where: { email } });
+  const user = await prisma.users.findFirst({ where: { email } });
 
   if (!user) {
     return null;

@@ -10,51 +10,52 @@ datasource db {
 // // User(utente che accede)
 // // ============================================================================
 
-model User {
+model Users {
   id            Int             @id @default(autoincrement())
   email         String          @unique
+  name          String
+  surname       String
   password      String
-  createdAt     DateTime        @default(now())
-  updatedAt     DateTime        @updatedAt
   RefreshTokens RefreshTokens[]
   PasswordReset PasswordReset[]
-  TaskStatus    TaskStatus[]
+  taskStatus    TasksStatus[]
+  createdAt     DateTime        @default(now())
+  updatedAt     DateTime        @updatedAt
 }
 
 model RefreshTokens {
   userId    Int      @id
   token     String   @unique
-  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  user      Users    @relation(fields: [userId], references: [id], onDelete: Cascade)
   updatedAt DateTime @updatedAt
 }
 
 model PasswordReset {
   userId    Int      @id
   token     String   @unique
-  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  user      Users    @relation(fields: [userId], references: [id], onDelete: Cascade)
   createdAt DateTime @updatedAt
 }
 
-model TaskStatus {
-  id          Int      @id @default(autoincrement())
-  title       String
-  description String
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
-  Task        Task[]
-  user        User     @relation(fields: [userId], references: [id])
-  userId      Int
+model TasksStatus {
+  id        Int      @id @default(autoincrement())
+  title     String
+  task      Tasks[]
+  user      Users    @relation(fields: [userId], references: [id])
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  userId    Int
 }
 
-model Task {
-  id          Int          @id @default(autoincrement())
-  title       String
-  description String
-  status      TaskStatus   @relation(fields: [statusId], references: [id])
-  statusId    Int
-  priority    TaskPriority
-  createdAt   DateTime     @default(now())
-  updatedAt   DateTime     @updatedAt
+model Tasks {
+  id           Int          @id @default(autoincrement())
+  title        String
+  description  String
+  taskStatus   TasksStatus  @relation(fields: [taskStatusId], references: [id])
+  taskStatusId Int
+  priority     TaskPriority
+  createdAt    DateTime     @default(now())
+  updatedAt    DateTime     @updatedAt
 }
 
 enum TaskPriority {

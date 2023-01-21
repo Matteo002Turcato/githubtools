@@ -1,10 +1,7 @@
 //import prisma from '@lib/prisma';
 import express from 'express';
 import * as routes from '@routes';
-import {
-  defaultRequestMiddlewares,
-  defaultResponseMiddlewares,
-} from '@middlewares';
+import { defaultResponseMiddlewares } from '@middlewares';
 
 import path from 'path';
 import env from '@config/env';
@@ -16,12 +13,9 @@ if (env.NODE_ENV === 'production') {
   app.use(express.static('public'));
 }
 
-
 app.use(express.json());
 
-app.use(...defaultRequestMiddlewares);
-
-
+app.use(...defaultResponseMiddlewares);
 
 app.use('/api', Object.values(routes));
 

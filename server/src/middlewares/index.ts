@@ -1,8 +1,15 @@
-import requestLogger from './requestLogger';
 import authRequired from './authRequired';
 import errorHandler from './errorHandler';
+import recaptchaVerification from './recaptchaVerification';
 
-export { requestLogger, errorHandler, authRequired };
+export { errorHandler, authRequired, recaptchaVerification };
 
-export const defaultRequestMiddlewares = [requestLogger];
 export const defaultResponseMiddlewares = [errorHandler];
+
+declare global {
+  namespace Express {
+    interface Request {
+      userId?: number;
+    }
+  }
+}

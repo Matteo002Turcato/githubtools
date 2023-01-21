@@ -9,7 +9,11 @@ export default (
   res: Response,
   _next: NextFunction
 ) => {
-  if (error instanceof ValidationError) {
+  if (error instanceof SyntaxError) {
+    return res.status(400).json({
+      message: 'Errore di sintassi',
+    });
+  } else if (error instanceof ValidationError) {
     return res.status(400).json({
       message: 'Uno o più campi contengono errori',
       errors: error.errors,

@@ -319,29 +319,43 @@ export const isFiscalCode: ValidationFunction = async (key, value, _values) => {
   return value;
 };
 
-// export const isUserEmailAvailable = (
-//   userIdToExclude?: number
-// ): ValidationFunction => {
-//   const isUserEmailAvailableFun: ValidationFunction = async (
-//     key,
-//     value,
-//     _values
-//   ) => {
-//     if (!isEmpty(value) && typeof value === 'string') {
-//       if (
-//         (await prisma.user.count({
-//           where: { email: value, id: { not: userIdToExclude } },
-//         })) !== 0
-//       ) {
-//         throw { [key]: ['Email già utilizzata'] };
-//       }
-//     }
+export const isUserEmailAvailable = (
+  userIdToExclude?: number
+): ValidationFunction => {
+  const isUserEmailAvailableFun: ValidationFunction = async (
+    key,
+    value,
+    _values
+  ) => {
+    if (!isEmpty(value) && typeof value === 'string') {
+      if (
+        (await prisma.users.count({
+          where: { email: value, id: { not: userIdToExclude } },
+        })) !== 0
+      ) {
+        throw { [key]: ['Email già utilizzata'] };
+      }
+    }
 
-//     return value;
-//   };
+    return value;
+  };
 
-//   return isUserEmailAvailableFun;
-// };
+  return isUserEmailAvailableFun;
+};
+
+export const isUserIdValid: ValidationFunction = async (
+  key,
+  value,
+  _values
+) => {
+  if (!isEmpty(value) && typeof value === 'number') {
+    if ((await prisma.users.count({ where: { id: value } })) === 0) {
+      throw { [key]: ["L'utente selezionato non esiste"] };
+    }
+  }
+
+  return value;
+};
 
 // export const isClientEmailAvailable = (
 //   userIdToExclude?: number
@@ -550,7 +564,7 @@ export const isPasswordValid = (userId?: number): ValidationFunction => {
     _values
   ) => {
     if (!isEmpty(value) && typeof value === 'string') {
-      const hash = (await prisma.user.findFirst({
+      const hash = (await prisma.users.findFirst({
         select: { password: true },
         where: { id: userId },
       }))!.password;

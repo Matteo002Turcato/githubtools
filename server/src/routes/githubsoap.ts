@@ -1,8 +1,6 @@
 import env from '@config/env';
 import axios from 'axios';
 import { Router } from 'express';
-import fs from 'fs';
-const AdmZip = require('adm-zip');
 
 const router = Router();
 

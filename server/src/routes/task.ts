@@ -138,7 +138,7 @@ router.get(
       if (!taskStatus) {
         return res
           .status(404)
-          .json({ message: "Nessuno Stato trovato con l'id selezionato" });
+          .json({ message: "Nessuna Task trovato con l'id selezionato" });
       }
 
       return res.json(taskStatus);
@@ -176,58 +176,62 @@ router.post(
   }
 );
 
-// router.patch(
-//   '/tasksStatus/:taskStatusId',
-//   /*authRequired,*/ async (req, res, next) => {
-//     try {
-//       const id = +req.params.taskStatusId;
+router.patch(
+  '/tasks/:taskId',
+  /*authRequired,*/ async (req, res, next) => {
+    try {
+      const id = +req.params.taskId;
 
-//       if ((await prisma.tasksStatus.count({ where: { id } })) === 0) {
-//         return res
-//           .status(404)
-//           .json({ message: "Nessuno Stato trovato con l'id selezionato" });
-//       }
+      if ((await prisma.tasksStatus.count({ where: { id } })) === 0) {
+        return res
+          .status(404)
+          .json({ message: "Nessuna Task trovato con l'id selezionato" });
+      }
 
-//       await validate(req.body, {
-//         title: [isRequired, isString, isMin(3), isMax(20)],
-//         userId: [isRequired, isInt, isUserIdValid],
-//       });
+      await validate(req.body, {
+        title: [isRequired, isString, isMin(3), isMax(20)],
+        description: [isRequired, isString],
+        priority: [isRequired, isString, isIn(Object.values(TaskPriority))],
+        taskStatusId: [isRequired, isTaskStatusIdValid, isInt],
+      });
 
-//       const { title, userId } = req.body;
+      const { title, description, priority, taskStatusId } = req.body;
 
-//       const taskStatus = await prisma.tasksStatus.update({
-//         data: {
-//           title,
-//           userId,
-//         },
-//         where: { id },
-//       });
+      const taskStatus = await prisma.tasks.update({
+        data: {
+          title,
+          description,
+          priority,
+          taskStatusId,
+        },
+        where: { id },
+      });
 
-//       return res.json(taskStatus);
-//     } catch (e) {
-//       next(e);
-//     }
-//   }
-// );
+      return res.json(taskStatus);
+    } catch (e) {
+      next(e);
+    }
+  }
+);
 
-// router.delete('/tasksStatus/:taskStatusId', async (req, res, next) => {
-//   try {
-//     const id = +req.params.taskStatusId;
+router.delete('/tasks/:taskId', async (req, res, next) => {
+  try {
+    const id = +req.params.taskId;
 
-//     if ((await prisma.tasksStatus.count({ where: { id } })) === 0) {
-//       return res
-//         .status(404)
-//         .json({ message: "Nessuno Stato trovato con l'id selezionato" });
-//     }
+    if ((await prisma.tasksStatus.count({ where: { id } })) === 0) {
+      return res
+        .status(404)
+        .json({ message: "Nessuno Task trovato con l'id selezionato" });
+    }
 
-//     await prisma.tasksStatus.delete({
-//       where: { id },
-//     });
+    await prisma.tasks.delete({
+      where: { id },
+    });
 
-//     return res.json({ message: 'success' });
-//   } catch (e) {
-//     next(e);
-//   }
-// });
+    return res.json({ message: 'success' });
+  } catch (e) {
+    next(e);
+  }
+});
 
 export default router;

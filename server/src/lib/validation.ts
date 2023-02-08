@@ -357,6 +357,20 @@ export const isUserIdValid: ValidationFunction = async (
   return value;
 };
 
+export const isTaskStatusIdValid: ValidationFunction = async (
+  key,
+  value,
+  _values
+) => {
+  if (!isEmpty(value) && typeof value === 'number') {
+    if ((await prisma.tasksStatus.count({ where: { id: value } })) === 0) {
+      throw { [key]: ['Lo stato selezionato non esiste'] };
+    }
+  }
+
+  return value;
+};
+
 // export const isClientEmailAvailable = (
 //   userIdToExclude?: number
 // ): ValidationFunction => {

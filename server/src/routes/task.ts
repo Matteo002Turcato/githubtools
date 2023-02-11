@@ -12,7 +12,6 @@ import validate, {
   isRequiredWith,
   isString,
   isTaskStatusIdValid,
-  isUserIdValid,
 } from '@lib/validation';
 
 const router = Router();

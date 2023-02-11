@@ -1,25 +1,41 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import * as serviceWorkerRegistration from './serviceWorkerRegistration';
-import reportWebVitals from './reportWebVitals';
+import '@styles/fonts.css';
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
-);
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import { Provider } from 'react-redux';
+
+import { ModalsProvider } from '@mantine/modals';
+import { NotificationsProvider } from '@mantine/notifications';
+
+import store from '@app/store';
+
+import env from '@config/env';
+
+import App from './App';
+import ThemeProvider from './ThemeProvider';
+
+const container = document.getElementById('root');
+
+const root = createRoot(container!);
+
+if (env.NODE_ENV === 'production') {
+  // Add google recaptcha script
+  const script = document.createElement('script');
+  script.src = `https://www.google.com/recaptcha/api.js?render=${env.RECAPTCHA_PUBLIC_KEY}`;
+  script.defer = true;
+  document.body.appendChild(script);
+}
+
 root.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <ThemeProvider>
+        <NotificationsProvider position="top-center" autoClose={2500}>
+          <ModalsProvider>
+            <App />
+          </ModalsProvider>
+        </NotificationsProvider>
+      </ThemeProvider>
+    </Provider>
   </React.StrictMode>
 );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://cra.link/PWA
-serviceWorkerRegistration.unregister();
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

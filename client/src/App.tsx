@@ -1,4 +1,4 @@
-import ServiceShImport from 'pages/serviceShImport/ServiceShImport';
+// import ServiceShImport from 'pages/serviceShImport/ServiceShImport';
 import { FC, useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -6,44 +6,45 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Center, Loader } from '@mantine/core';
 import { showNotification } from '@mantine/notifications';
 
-import { getPushNotificationsToken, onMessageListener } from '@lib/firebase';
+// import { getPushNotificationsToken, onMessageListener } from '@lib/firebase';
 
 import { useRefreshMutation } from '@api/authApi';
-import { usePatchCurrentUserMutation } from '@api/userApi';
+//  import { usePatchCurrentUserMutation } from '@api/userApi';
 
 import { setCredentials } from '@slices/authSlice';
+import { HomePage } from '@pages';
 
-import {
-  Agencies,
-  ClientDetail,
-  ClientProjects,
-  Clients,
-  ClientServices,
-  Home,
-  Login,
-  Notifications,
-  PageNotFound,
-  PasswordReset,
-  PasswordResetRequest,
-  Portfolio,
-  Projects,
-  ProjectServices,
-  Services,
-  Settings,
-  UserAdd,
-  Users,
-  WebsiteScanner,
-  WpTracking
-} from '@pages';
+// import {
+//   Agencies,
+//   ClientDetail,
+//   ClientProjects,
+//   Clients,
+//   ClientServices,
+//   Home,
+//   Login,
+//   Notifications,
+//   PageNotFound,
+//   PasswordReset,
+//   PasswordResetRequest,
+//   Portfolio,
+//   Projects,
+//   ProjectServices,
+//   Services,
+//   Settings,
+//   UserAdd,
+//   Users,
+//   WebsiteScanner,
+//   WpTracking
+// } from '@pages';
 
-import PrivateRoute from '@components/PrivateRoute';
+// import PrivateRoute from '@components/PrivateRoute';
 
 const App: FC = () => {
   const dispatch = useDispatch();
   const [loading, setLoading] = useState(true);
   const [refresh] = useRefreshMutation();
 
-  const [modifyUser] = usePatchCurrentUserMutation();
+  // const [modifyUser] = usePatchCurrentUserMutation();
 
   useEffect(() => {
     const f = async () => {
@@ -52,9 +53,9 @@ const App: FC = () => {
 
         dispatch(setCredentials({ accessToken, user: { id: userId } }));
 
-        const token = await getPushNotificationsToken();
+        // const token = await getPushNotificationsToken();
 
-        await modifyUser({ fcmToken: token }).unwrap();
+        // await modifyUser({ fcmToken: token }).unwrap();
         // TODO: improve this. do not call api on every load
       } catch (e) {
         // Nothing to do
@@ -64,16 +65,16 @@ const App: FC = () => {
     };
 
     f();
-  }, [dispatch, refresh, modifyUser]);
+  }, [dispatch, refresh /*modifyUser*/]);
 
-  onMessageListener((payload) => {
-    if (payload) {
-      showNotification({
-        title: payload.notification?.title,
-        message: payload.notification?.body,
-      });
-    }
-  });
+  // onMessageListener((payload) => {
+  //   if (payload) {
+  //     showNotification({
+  //       title: payload.notification?.title,
+  //       message: payload.notification?.body,
+  //     });
+  //   }
+  // });
 
   return loading ? (
     <Center style={{ height: '100vh' }}>
@@ -82,7 +83,8 @@ const App: FC = () => {
   ) : (
     <BrowserRouter>
       <Routes>
-        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<HomePage />} />
+        {/* <Route path="/login" element={<Login />} />
         <Route path="/password-reset" element={<PasswordResetRequest />} />
         <Route path="/password-reset/:token" element={<PasswordReset />} />
         <Route path="/utente" element={<PrivateRoute element={<Users />} />} />
@@ -148,7 +150,7 @@ const App: FC = () => {
           path="/notifiche"
           element={<PrivateRoute element={<Notifications />} />}
         />
-        <Route path="*" element={<PageNotFound />} />
+        <Route path="*" element={<PageNotFound />} /> */}
       </Routes>
     </BrowserRouter>
   );

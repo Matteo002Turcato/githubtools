@@ -21,7 +21,7 @@ const root = createRoot(container!);
 if (env.NODE_ENV === 'production') {
   // Add google recaptcha script
   const script = document.createElement('script');
-  script.src = `https://www.google.com/recaptcha/api.js?render=${env.RECAPTCHA_PUBLIC_KEY}`;
+  // script.src = `https://www.google.com/recaptcha/api.js?render=${env.RECAPTCHA_PUBLIC_KEY}`;
   script.defer = true;
   document.body.appendChild(script);
 }

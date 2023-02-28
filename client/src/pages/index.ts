@@ -21,4 +21,4 @@
 // export { default as Portfolio } from './Portfolio';
 // export { default as Notifications } from './Notifications';
 // export { default as WpTracking } from './WpTracking';
-export {};
+export { default as HomePage } from './HomePage';

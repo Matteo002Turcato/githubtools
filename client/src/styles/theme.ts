@@ -1,10 +1,10 @@
 import { MantineThemeOverride } from '@mantine/core';
 
 const theme: MantineThemeOverride = {
-  fontFamily: 'Montserrat, sans-serif',
+  fontFamily: 'Poppins, sans-serif',
 
   headings: {
-    fontFamily: 'Montserrat, sans-serif',
+    fontFamily: 'Poppins, sans-serif',
     sizes: {
       h1: {
         fontSize: '1.5rem',

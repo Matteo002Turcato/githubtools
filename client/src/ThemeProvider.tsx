@@ -1,4 +1,9 @@
-import { ColorScheme, ColorSchemeProvider, Global, MantineProvider } from '@mantine/core';
+import {
+  ColorScheme,
+  ColorSchemeProvider,
+  Global,
+  MantineProvider,
+} from '@mantine/core';
 import { useLocalStorage } from '@mantine/hooks';
 
 import theme from '@styles/theme';
@@ -25,7 +30,7 @@ const ThemeProvider: React.FC<ThemeProviderProps> = ({ children }) => {
       <MantineProvider withNormalizeCSS theme={{ ...theme, colorScheme }}>
         <Global
           styles={(theme) => ({
-            html: { fontFamily: 'Montserrat, sans-serif' },
+            html: { fontFamily: 'Poppins, sans-serif' },
             body: {
               backgroundColor:
                 theme.colorScheme === 'dark' ? '#141517' : '#ffffff',

@@ -15,7 +15,7 @@ interface ThemeProviderProps {
 const ThemeProvider: React.FC<ThemeProviderProps> = ({ children }) => {
   const [colorScheme, setColorScheme] = useLocalStorage<ColorScheme>({
     key: 'color-scheme',
-    defaultValue: 'light',
+    defaultValue: 'dark',
     getInitialValueInEffect: true,
   });
 
@@ -33,8 +33,8 @@ const ThemeProvider: React.FC<ThemeProviderProps> = ({ children }) => {
             html: { fontFamily: 'Poppins, sans-serif' },
             body: {
               backgroundColor:
-                theme.colorScheme === 'dark' ? '#141517' : '#ffffff',
-              color: theme.colorScheme === 'dark' ? '#C1C2C5' : 'initial',
+                theme.colorScheme === 'dark' ? '#020409' : '#ffffff',
+              color: theme.colorScheme === 'dark' ? '#F8F9FA' : 'initial',
             },
             '*': { boxSizing: 'border-box' },
             '.grecaptcha-badge': {
